@@ -64,8 +64,8 @@ public class Prefs {
   public  static final String LAST_DEVICE_MSG_LABEL            = "pref_last_device_msg_id";
   public  static final String WEBXDC_STORE_URL_PREF            = "pref_webxdc_store_url";
   // TIP: change webdx url
-  public  static final String DEFAULT_WEBXDC_STORE_URL         = "https://webxdc.org/apps/";
-  // public  static final String DEFAULT_WEBXDC_STORE_URL         = "https://baidu.com";
+  // public  static final String DEFAULT_WEBXDC_STORE_URL         = "https://webxdc.org/apps/";
+  public  static final String DEFAULT_WEBXDC_STORE_URL         = "https://www.forkstar.org";
 
   public enum VibrateState {
     DEFAULT(0), ENABLED(1), DISABLED(2);
