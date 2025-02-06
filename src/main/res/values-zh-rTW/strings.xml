@@ -573,7 +573,7 @@
     <!-- Question shown when group's QR code is scanned from onboarding screen -->
     <string name="instant_onboarding_confirm_group">您想創建新的個人資料並加入 「%1$s」 聊天群組嗎？</string>
 
-    <string name="welcome_chat_over_email">安全的去中心化聊天</string>
+    <string name="welcome_chat_over_email">去中心化加密的隐匿通讯工具</string>
     <string name="scan_invitation_code">掃描邀請碼</string>
     <string name="login_title">登入</string>
     <!-- for classic email, we use the classical term "Account" -->
