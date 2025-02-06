@@ -69,8 +69,9 @@ public class InstantOnboardingActivity extends BaseActionBarActivity implements 
   private static final String DCACCOUNT = "dcaccount";
   private static final String DCLOGIN = "dclogin";
   private static final String INSTANCES_URL = "https://delta.chat/chatmail";
-  private static final String DEFAULT_CHATMAIL_HOST = "nine.testrun.org";
-  private static final String DEFAULT_PRIVATE_HOST = "forkstar.org";
+  // TIP: change default host to your own instance
+  // private static final String DEFAULT_CHATMAIL_HOST = "nine.testrun.org";
+  private static final String DEFAULT_CHATMAIL_HOST = "chat.1btc.live";
 
   public static final String QR_ACCOUNT_EXTRA = "qr_account_extra";
   public static final String FROM_WELCOME = "from_welcome";
@@ -328,7 +329,7 @@ public class InstantOnboardingActivity extends BaseActionBarActivity implements 
 
     privacyPolicyBtn.setOnClickListener(view -> {
       if (!isDcLogin) {
-        IntentUtils.showInBrowser(this, "https://" + DEFAULT_PRIVATE_HOST + "/privacy.html");
+        IntentUtils.showInBrowser(this, "https://" + providerHost + "/privacy.html");
       }
     });
 
@@ -371,14 +372,14 @@ public class InstantOnboardingActivity extends BaseActionBarActivity implements 
     if (isDcLogin) {
       signUpBtn.setText(R.string.login_title);
       privacyPolicyBtn.setTextColor(getResources().getColor(R.color.gray50));
-      privacyPolicyBtn.setText(getString(R.string.qrlogin_ask_login, DEFAULT_PRIVATE_HOST));
+      privacyPolicyBtn.setText(getString(R.string.qrlogin_ask_login, providerHost));
     } else {
       signUpBtn.setText(R.string.instant_onboarding_create);
       privacyPolicyBtn.setTextColor(getResources().getColor(R.color.delta_accent));
       if (DEFAULT_CHATMAIL_HOST.equals(providerHost)) {
-        privacyPolicyBtn.setText(getString(R.string.instant_onboarding_agree_default2, DEFAULT_PRIVATE_HOST));
+        privacyPolicyBtn.setText(getString(R.string.instant_onboarding_agree_default2, providerHost));
       } else {
-        privacyPolicyBtn.setText(getString(R.string.instant_onboarding_agree_instance, DEFAULT_PRIVATE_HOST));
+        privacyPolicyBtn.setText(getString(R.string.instant_onboarding_agree_instance, providerHost));
       }
     }
   }
