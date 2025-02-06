@@ -642,9 +642,9 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     }
     // TIP: hide attach btn
     // origin
-    // attachmentTypeSelector.show(this, attachButton);
+    attachmentTypeSelector.show(this, attachButton);
     // change
-    attachmentTypeSelector.show(this, sendButton);
+    // attachmentTypeSelector.show(this, sendButton);
   }
 
   private void handleSecurityChange(boolean isSecureText, boolean isDefaultSms) {
@@ -797,9 +797,9 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     sendButton.setEnabled(enabled);
     // TIP: hide the attach button if the user is not allowed to send files
     // origin
-    // attachButton.setEnabled(enabled);
+    attachButton.setEnabled(enabled);
     // change
-    attachButton.setEnabled(false);
+    // attachButton.setEnabled(false);
   }
 
   private ListenableFuture<Boolean> initializeSecurity(final boolean currentSecureText,
@@ -1161,9 +1161,9 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     if (composeText.getText().length() == 0 && !attachmentManager.isAttachmentPresent()) {
       // TIP: hide attach button
       // origin
-      // buttonToggle.display(attachButton);
+      buttonToggle.display(attachButton);
       // change
-      buttonToggle.display(sendButton);
+      // buttonToggle.display(sendButton);
       quickAttachmentToggle.show();
     } else {
       buttonToggle.display(sendButton);
