@@ -878,7 +878,6 @@
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
     <string name="about_offical_app_desktop">Toto je oficiálna aplikácia Delta Chat Desktop.</string>
     <string name="about_licensed_under_desktop">Tento softvér je licencovaný pod GNU GPL verzie 3 a zdrojový kód je k dispozícii na GitHub-e.</string>
-    <string name="welcome_desktop">Víta vás Delta Chat</string>
     <string name="global_menu_preferences_language_desktop">Jazyk</string>
     <string name="global_menu_file_desktop">Súbor</string>
     <string name="global_menu_file_quit_desktop">Skončiť</string>

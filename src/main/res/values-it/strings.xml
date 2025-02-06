@@ -1087,7 +1087,6 @@
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
     <string name="about_offical_app_desktop">Questa è l\'app Desktop Delta Chat ufficiale.</string>
     <string name="about_licensed_under_desktop">Questo software è concesso in licenza con GNU GPL versione 3 e il codice sorgente è disponibile su GitHub.</string>
-    <string name="welcome_desktop">Benvenuto in Delta Chat</string>
     <string name="global_menu_preferences_language_desktop">Lingua</string>
     <string name="global_menu_file_desktop">File</string>
     <string name="global_menu_file_quit_desktop">Esci</string>

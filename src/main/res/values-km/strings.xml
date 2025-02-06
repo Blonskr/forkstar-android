@@ -775,7 +775,6 @@
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
     <string name="about_offical_app_desktop">នេះគឺជាសា Delta Chat ផ្លូវការ នៅលើកម្មវិធីកុំព្យូទ័រលើតុ</string>
     <string name="about_licensed_under_desktop">សូហ្វវែ Delta Chat នេះគឺបានអាជ្ញាប័ណ្ណនៅក្រោម GNU GPL ជំនាន់ ៣ និងប្រភពកូដ គឺអាចរកបាននៅលើ GitHub</string>
-    <string name="welcome_desktop">ស្វាគមន៍មកកាន់សា Delta Chat</string>
     <string name="global_menu_preferences_language_desktop">ភាសា</string>
     <string name="global_menu_file_desktop">ឯកសារ</string>
     <string name="global_menu_file_quit_desktop">ឈប់</string>

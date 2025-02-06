@@ -1038,7 +1038,7 @@
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
     <string name="about_offical_app_desktop">這是 Delta Chat 官方桌面應用程式。</string>
     <string name="about_licensed_under_desktop">該軟體根據 GNU GPL 第 3 版獲得許可，原始程式碼可在 GitHub 上找到。</string>
-    <string name="welcome_desktop">歡迎來到 Delta Chat</string>
+    <string name="welcome_desktop">歡迎來到 FORKSTAR</string>
     <string name="global_menu_preferences_language_desktop">語言</string>
     <string name="global_menu_file_desktop">檔案</string>
     <string name="global_menu_file_quit_desktop">退出</string>

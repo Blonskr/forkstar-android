@@ -1071,7 +1071,6 @@
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
     <string name="about_offical_app_desktop">Ez a hivatalos Delta Chat Desktop alkalmazás.</string>
     <string name="about_licensed_under_desktop">Ez a szoftver a GNU GPLv3 licenc alatt áll és a forráskód elérhető a GitHubon.</string>
-    <string name="welcome_desktop">Üdvözöljük a Delta Chatben!</string>
     <string name="global_menu_preferences_language_desktop">Válasszon nyelvet…</string>
     <string name="global_menu_file_desktop">Fájl</string>
     <string name="global_menu_file_quit_desktop">Kilépés</string>

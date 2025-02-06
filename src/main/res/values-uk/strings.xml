@@ -1101,7 +1101,6 @@
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
     <string name="about_offical_app_desktop">Це офіційний додаток Delta Chat для ПК.</string>
     <string name="about_licensed_under_desktop">Це програмне забезпечення ліцензується за GNU GPL версії 3, а початковий код доступний на GitHub.</string>
-    <string name="welcome_desktop">Вітаємо у Delta Chat</string>
     <string name="global_menu_preferences_language_desktop">Вибір мови</string>
     <string name="global_menu_file_desktop">Файл</string>
     <string name="global_menu_file_quit_desktop">Вийти</string>

@@ -883,7 +883,6 @@
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
     <string name="about_offical_app_desktop">Ово је званична Delta Chat апликација за рачунар.</string>
     <string name="about_licensed_under_desktop">Овај програм је лиценциран под ГНУ ГПЛ верзија 3 лиценцом и изворни код је доступан на Гитхабу.</string>
-    <string name="welcome_desktop">Добродошли у Delta Chat.</string>
     <string name="global_menu_preferences_language_desktop">Језик</string>
     <string name="global_menu_file_desktop">Фајл</string>
     <string name="global_menu_file_quit_desktop">Излаз</string>

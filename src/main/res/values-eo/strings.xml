@@ -454,7 +454,6 @@
     <!-- permissions -->
     <string name="perm_required_title">Permeso bezonata</string>
     <string name="perm_continue">Daŭrigi</string>
-    <string name="welcome_desktop">Bonvenon al Delta Chat</string>
     <string name="global_menu_preferences_language_desktop">Lingvo</string>
     <string name="global_menu_file_desktop">Dosiero</string>
     <string name="global_menu_edit_desktop">Modifi</string>

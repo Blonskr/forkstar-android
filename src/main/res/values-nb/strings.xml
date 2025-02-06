@@ -416,7 +416,6 @@
     <!-- dc_str_* resources -->
     <string name="encrypted_message">Kryptert melding</string>
 
-    <string name="welcome_desktop">Velkommen til Delta Chat</string>
     <string name="global_menu_preferences_language_desktop">Språk</string>
     <string name="global_menu_edit_desktop">Rediger</string>
     <string name="global_menu_edit_copy_desktop">Kopier</string>

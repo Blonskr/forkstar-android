@@ -935,7 +935,6 @@
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
     <string name="about_offical_app_desktop">Đây là ứng dụng Delta Chat Desktop chính thức.</string>
     <string name="about_licensed_under_desktop">Phần mềm này được cấp phép theo GNU GPL phiên bản 3 và mã nguồn có sẵn trên GitHub.</string>
-    <string name="welcome_desktop">Chào mừng đến với Delta Chat</string>
     <string name="global_menu_preferences_language_desktop">Ngôn ngữ</string>
     <string name="global_menu_file_desktop">Tập tin</string>
     <string name="global_menu_file_quit_desktop">Thoát</string>

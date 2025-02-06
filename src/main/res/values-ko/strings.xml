@@ -817,7 +817,6 @@
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
     <string name="about_offical_app_desktop">이것은 Delta Chat 데스크톱 공식 앱입니다.</string>
     <string name="about_licensed_under_desktop">이 소프트웨어는 GNU GPL 버전 3에 따라 라이센스가 부여되며 소스 코드는 GitHub에서 사용할 수 있습니다.</string>
-    <string name="welcome_desktop">Delta Chat에 오신 것을 환영합니다.</string>
     <string name="global_menu_preferences_language_desktop">언어</string>
     <string name="global_menu_file_desktop">파일</string>
     <string name="global_menu_file_quit_desktop">그만두기</string>

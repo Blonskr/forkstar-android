@@ -775,7 +775,6 @@
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
     <string name="about_offical_app_desktop">Toto je původní aplikace Delta Chat Desktop.</string>
     <string name="about_licensed_under_desktop">Tento software je pod licencí GNU GPL verze 3 a zdrojový kód je k mání na GitHubu.</string>
-    <string name="welcome_desktop">Vítej v Delta Chatu</string>
     <string name="global_menu_preferences_language_desktop">Jazyk</string>
     <string name="global_menu_file_desktop">Soubor</string>
     <string name="global_menu_file_quit_desktop">Ukončit</string>

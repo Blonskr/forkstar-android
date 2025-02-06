@@ -201,7 +201,6 @@
     <!-- dc_str_* resources -->
     <string name="encrypted_message">ఎంక్రిప్ట్ చెసిన సందేశం</string>
 
-    <string name="welcome_desktop">Delta Chat కి స్వాగతం.</string>
     <string name="global_menu_file_desktop">ఫైల్</string>
     <string name="global_menu_edit_desktop">మార్చు</string>
     <string name="global_menu_view_desktop">చూడు</string>

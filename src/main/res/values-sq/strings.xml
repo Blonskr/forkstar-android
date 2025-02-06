@@ -1063,7 +1063,6 @@
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
     <string name="about_offical_app_desktop">Ky është aplikacioni zyrtar Delta Chat Desktop.</string>
     <string name="about_licensed_under_desktop">Ky program licencohet sipas GNU GPL version 3 dhe kodi burim mund të kihet që prej GitHub-i.</string>
-    <string name="welcome_desktop">Mirë se vini në Delta Chat</string>
     <string name="global_menu_preferences_language_desktop">Gjuhë</string>
     <string name="global_menu_file_desktop">Kartelë</string>
     <string name="global_menu_file_quit_desktop">Dilni</string>

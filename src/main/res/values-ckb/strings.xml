@@ -542,7 +542,6 @@
 
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
     <string name="about_offical_app_desktop">ئەمە نەرمامێری فەرمی دێڵتا چاتە بۆ کۆمپووتەری ڕوومێز.</string>
-    <string name="welcome_desktop">بەخێر بێن بۆ دێڵتا چات</string>
     <string name="global_menu_preferences_language_desktop">زمان</string>
     <string name="global_menu_file_desktop">پەڕگە</string>
     <string name="global_menu_file_quit_desktop">چوونەدەرەوە</string>
