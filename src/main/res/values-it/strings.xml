@@ -314,7 +314,6 @@
     <string name="device_talk">Messaggi Dispositivo</string>
     <string name="device_talk_subtitle">Messaggi generati localmente</string>
     <string name="device_talk_explain">I messaggi in questa chat vengono generati sul tuo dispositivo per informarti sugli aggiornamenti dell\'app e problemi che si verificano durante l\'utilizzo.</string>
-    <string name="device_talk_welcome_message2">Mettiti in contatto!\n\n🙌 Tocca \"Codice QR\" sulla schermata principale di entrambi i dispositivi. Scegli \"Scansiona codice QR\" su un dispositivo e puntalo verso l\'altro\n\n🌍 Se non siete nella stessa stanza, esegui la scansione tramite videochiamata o condividi un collegamento di invito da \"Scansiona codice QR\"\n\nQuindi: goditi la ​​tua esperienza di messaggistica sulla più grande rete decentralizzata mai esistita: l\'E-mail. E a differenza di altre app popolari, senza controllo centrale né monitoraggio o vendita dei tuoi dati, ne dei tuoi amici, colleghi o familiari a grandi organizzazioni.</string>
     <string name="edit_contact">Modifica Contatto</string>
     <!-- Verb "to pin", making something sticky, not a noun or abbreviation for "pin number". -->
     <string name="pin_chat">Blocca Chat</string>

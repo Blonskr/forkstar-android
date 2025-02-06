@@ -280,7 +280,6 @@
     <string name="device_talk">Enhetsmeddelanden</string>
     <string name="device_talk_subtitle">Lokalt genererade meddelanden</string>
     <string name="device_talk_explain">Meddelanden i denna chatt är lokalt genererade av din Delta Chat-app. Dess skapare använder den för att informera om app-uppdateringar och problem vid användning.</string>
-    <string name="device_talk_welcome_message2">Ta kontakt!\n\n🙌 Tryck på \"QR-kod\" på huvudskärmen på båda enheterna. Välj \"Skanna QR-kod\" på en enhet och rikta den mot den andra\n\n🌍 Om du inte är i samma rum kan du skanna via videosamtal eller dela en inbjudningslänk från \"Skanna QR-kod\"\n\nEfter det: Njut av din meddelandeupplevelse via det största decentraliserade nätverket som någonsin har funnits. E-post! Och i motsats till andra populära appar, utan central kontroll eller spårning eller att sälja ut dig, vänner, kollegor eller familj till stora organisationer.</string>
     <string name="edit_contact">Redigera kontakt</string>
     <!-- Verb "to pin", making something sticky, not a noun or abbreviation for "pin number". -->
     <string name="pin_chat">Fäst chatten</string>

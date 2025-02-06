@@ -274,7 +274,6 @@
     <string name="device_talk">Laitteen viestit</string>
     <string name="device_talk_subtitle">Paikallisesti luodut viestit</string>
     <string name="device_talk_explain">Viestit tässä keskustelussa luodaan paikallisesti Delta Chat -sovelluksessa. Kehittäjät ilmoittavat niiden avulla sovelluksen päivityksistä ja mahdollisista ongelmista.</string>
-    <string name="device_talk_welcome_message2">Aloita keskustelu!\n\n🙌 Täppää \"QR koodi\" päänäkymässä molemmilla laitteilla. Valitse \"Skannaa QR koodi\" toisella laitteella, ja osoita sillä toista\n\n🌍 Jos ette ole samassa huoneessa, skannaa vaikkapa videopuhelun yli tai jaa kutsulinkki \"Skannaa QR koodi\" -sivulta\n\nSitten voit nauttia pikaviestittelystä suurimmassa hajautetussa sosiaalisessa verkostossa mitä on koskaan ollut olemassa: eli sähköpostissa. Kontrastina toisiin suosittuihin sovelluksiin, ilman keskitettyä tahoa kontrolloimassa, keräämässä massadataa tai myymässä sinua, ystäviäsi, kollegojasi tai perhettäsi suurille organisaatioille.</string>
     <string name="edit_contact">Muokkaa yhteystietoa</string>
     <!-- Verb "to pin", making something sticky, not a noun or abbreviation for "pin number". -->
     <string name="pin_chat">Kiinnitä keskustelu</string>

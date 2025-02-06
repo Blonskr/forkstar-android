@@ -305,7 +305,6 @@
     <string name="device_talk">Aygıt İletileri</string>
     <string name="device_talk_subtitle">Yerel olarak oluşturulan iletiler</string>
     <string name="device_talk_explain">Bu sohbetteki iletiler, uygulama güncelleştirmeleri ve kullanım sırasındaki sorunlar hakkında bilgilendirmek için aygıtınızda oluşturulur.</string>
-    <string name="device_talk_welcome_message2">İletişime geçin!\n\n🙌 Her iki aygıtın ana ekranındaki \"QR Kodu\"na dokunun. Bir aygıtta \"QR Kodunu Tara\"yı seçin ve onu diğerine doğrultun\n\n🌍 Aynı odada değilse, video araması aracılığıyla tarayın ya da \"QR Kodu\"ndan bir çağırma bağlantısı paylaşın\n\nDaha sonra: Şimdiye kadar varolan en büyük merkezi olmayan ağ üzerinden ulak deneyiminizin keyfini çıkarın: E-posta. Ve diğer yaygın uygulamaların tersine, merkezi denetim ya da izleme olmadan ya da sizi, arkadaşlarınızı, iş arkadaşlarınızı ya da ailenizi büyük kuruluşlara satmadan.</string>
     <string name="edit_contact">Kişiyi Düzenle</string>
     <!-- Verb "to pin", making something sticky, not a noun or abbreviation for "pin number". -->
     <string name="pin_chat">Sohbeti Sabitle</string>

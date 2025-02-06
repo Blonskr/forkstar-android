@@ -284,7 +284,6 @@
     <string name="device_talk">裝置訊息</string>
     <string name="device_talk_subtitle">本機產生的訊息</string>
     <string name="device_talk_explain">這個聊天室內的訊息是由 Delta Chat 軟體在本地產生的。開發者會在這裡發送軟體更新和使用幫助。</string>
-    <string name="device_talk_welcome_message2">聯繫我們！\n\n🙌 點擊兩台裝置主螢幕上的「QR碼」。在一台裝置上選擇「掃描二維碼」，然後將其指向另一台裝置\n\n🌍如果不在同一個房間，通過視訊通話掃描或從「掃描QR碼」中分享邀請連結\n\n，然後通過有史以來最大的去中心化網络享受您的信使體驗：電子郵件。與其他流行的應用程式相比，它沒有中央控制或跟蹤，也沒有將您、朋友、同事或家人出售給大型組織。</string>
     <string name="edit_contact">編輯聯絡人</string>
     <!-- Verb "to pin", making something sticky, not a noun or abbreviation for "pin number". -->
     <string name="pin_chat">釘選對話</string>

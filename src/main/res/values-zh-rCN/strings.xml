@@ -296,7 +296,7 @@
     <string name="device_talk">设备消息</string>
     <string name="device_talk_subtitle">本地生成的消息</string>
     <string name="device_talk_explain">此聊天中的消息是由 Delta Chat 应用本地生成的。 它的制作者使用它来通知应用更新和使用过程中出现的问题。</string>
-    <string name="device_talk_welcome_message2">取得联系！\n\n🙌 轻按两台设备主屏上的“二维码”。 在其中一台设备上选择“扫描二维码”，并将其对准另一台设备上显示的二维码\n\n🌍 如果双方不在同一个房间内，可以通过视频通话进行扫描，或从“扫描二维码”那里分享一个邀请链接\n\n接下来： 通过有史以来存在的最大去中心化网络：电子邮件来享受收发消息。和其他流行的即时聊天应用相比，DeltaChat 没有中央控制，不跟踪您本人、您的好友、同事或家人，也不售卖你们的数据给大型组织。</string>
+    <string name="device_talk_welcome_message2">ForkStar：真正的去中心化、端到端加密的隐匿通讯工具\n\nForkStar 是一款基于 SMTP/IMAP 协议的通讯软件，彻底去中心化，支持 端到端加密、抗审查、完全匿名，让你的通讯 不依赖任何中心化服务器，真正自由、安全。\n\n核心优势：\n去中心化：不像Telegram、WhatsApp、WeChat 等im软件依赖中心化服务器，ForkStar用户可自由选择邮件服务器，甚至自建服务器，避免任何国家或组织的封锁。\n端到端加密：采用 PGP 加密，所有消息仅发送者和接收者可读取，确保极致隐私。\n完全开源：所有代码公开，接受全球安全审计，杜绝任何后门。\n简单易用：只需扫描二维码，即可添加好友，轻松建立安全通信。\n抗审查：全球通用的电子邮件协议，任何国家或组织都无法封锁 ForkStar。</string>
     <string name="edit_contact">编辑联系人</string>
     <!-- Verb "to pin", making something sticky, not a noun or abbreviation for "pin number". -->
     <string name="pin_chat">固定聊天</string>

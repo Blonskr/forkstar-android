@@ -314,7 +314,6 @@
     <string name="device_talk">Mensajes del dispositivo</string>
     <string name="device_talk_subtitle">Mensajes generados localmente</string>
     <string name="device_talk_explain">Los mensajes en este chat son generados localmente por tu aplicación Delta Chat. Los creadores lo usan para informar sobre actualizaciones y problemas durante el uso de la aplicación.</string>
-    <string name="device_talk_welcome_message2">¡Ponte en contacto!\n\n🙌 Toca \"Código QR\" en la pantalla principal de ambos dispositivos. Elija \"Escanear código QR\" en un dispositivo y apúntelo al otro\n\n🌍 Si no está en la misma habitación, escanee mediante videollamada o comparta un enlace de invitación desde \"Escanear código QR\"\n\nEntonces: disfrute de su experiencia de mensajería a través de la red descentralizada más grande que jamás haya existido: el correo electrónico. Y a diferencia de otras aplicaciones populares, sin control central ni seguimiento ni venta de usted, amigos, colegas o familiares a grandes organizaciones.</string>
     <string name="edit_contact">Editar contacto</string>
     <!-- Verb "to pin", making something sticky, not a noun or abbreviation for "pin number". -->
     <string name="pin_chat">Anclar chat</string>
