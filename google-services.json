@@ -42,6 +42,44 @@
           "other_platform_oauth_client": []
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491336516313:android:98a8a0117a1ce68411f4c8",
+        "android_client_info": {
+          "package_name": "com.forkstar.messenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxXOD6gxqC-MRefsyebGkc6KmfI859yXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491336516313:android:761dcbc283982cb911f4c8",
+        "android_client_info": {
+          "package_name": "com.forkstar.messenger.beta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxXOD6gxqC-MRefsyebGkc6KmfI859yXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
     }
   ],
   "configuration_version": "1"
