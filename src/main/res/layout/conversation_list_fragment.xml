@@ -52,17 +52,123 @@
 
     </LinearLayout>
 
+    <!-- TIP: add button in bottom of screen-->
+    <LinearLayout
+        android:id="@+id/bottom_button_bar"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:padding="16dp">
 
-    <org.thoughtcrime.securesms.components.registration.PulsingFloatingActionButton
-            android:id="@+id/fab"
-            android:layout_width="wrap_content"
+        <LinearLayout android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|end"
-            android:layout_margin="16dp"
-            app:backgroundTint="?attr/fab_color"
-            android:src="@drawable/ic_add_white_24dp"
-            android:focusable="true"
-            android:contentDescription="@string/menu_new_chat"/>
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <org.thoughtcrime.securesms.components.CircleColorImageView
+                android:id="@+id/chat_button"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:src="@drawable/attach_camera"
+                android:scaleType="center"
+                android:contentDescription="@string/chat"
+                app:circleColor="#00FFFFFF"/>
+
+            <TextView android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                style="@style/AttachmentTypeLabel"
+                android:text="@string/chat"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <org.thoughtcrime.securesms.components.CircleColorImageView
+                android:id="@+id/contact_button"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:src="@drawable/attach_record_video"
+                android:scaleType="center"
+                android:contentDescription="@string/contact"
+                app:circleColor="#00FFFFFF"/>
+
+            <TextView android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                style="@style/AttachmentTypeLabel"
+                android:text="@string/contact"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <org.thoughtcrime.securesms.components.CircleColorImageView
+                android:id="@+id/webxdc_button"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:src="@drawable/ic_image_white_24dp"
+                android:scaleType="center"
+                android:contentDescription="@string/webxdc_app"
+                app:circleColor="@color/gallery_icon"/>
+
+            <TextView android:layout_marginTop="10dp"
+                style="@style/AttachmentTypeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/webxdc_app"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/location_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <org.thoughtcrime.securesms.components.CircleColorImageView
+                android:id="@+id/menu_settings_button"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:src="@drawable/ic_location_on_white_24dp"
+                android:scaleType="center"
+                android:visibility="visible"
+                android:contentDescription="@string/menu_settings"
+                app:circleColor="@color/location_icon"/>
+
+            <TextView android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                style="@style/AttachmentTypeLabel"
+                android:text="@string/menu_settings"/>
+
+        </LinearLayout>
+    </LinearLayout>
+<!--    <org.thoughtcrime.securesms.components.registration.PulsingFloatingActionButton-->
+<!--            android:id="@+id/fab"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="bottom|end"-->
+<!--            android:layout_margin="16dp"-->
+<!--            app:backgroundTint="?attr/fab_color"-->
+<!--            android:src="@drawable/ic_add_white_24dp"-->
+<!--            android:focusable="true"-->
+<!--            android:contentDescription="@string/menu_new_chat"/>-->
+    <!-- end tip -->
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

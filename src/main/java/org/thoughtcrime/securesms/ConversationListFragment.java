@@ -20,6 +20,7 @@ import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -28,6 +29,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -72,6 +74,12 @@ public class ConversationListFragment extends BaseConversationListFragment
   private boolean                     chatlistJustLoaded;
   private boolean                     reloadTimerInstantly;
 
+  // TIP: add tab bar
+  private ImageView chatButton;
+  private ImageView contactButton;
+  private ImageView webxdcButton;
+  private ImageView settingsButton;
+
   @Override
   public void onCreate(Bundle icicle) {
     super.onCreate(icicle);
@@ -103,16 +111,21 @@ public class ConversationListFragment extends BaseConversationListFragment
     final View view = inflater.inflate(R.layout.conversation_list_fragment, container, false);
 
     list         = ViewUtil.findById(view, R.id.list);
-    fab          = ViewUtil.findById(view, R.id.fab);
+    // fab          = ViewUtil.findById(view, R.id.fab);
     emptyState   = ViewUtil.findById(view, R.id.empty_state);
     emptySearch  = ViewUtil.findById(view, R.id.empty_search);
 
+    chatButton = ViewUtil.findById(view, R.id.chat_button);
+    contactButton = ViewUtil.findById(view, R.id.contact_button);
+    webxdcButton = ViewUtil.findById(view, R.id.webxdc_button);
+    settingsButton = ViewUtil.findById(view, R.id.menu_settings_button);
+
     if (archive) {
-      fab.setVisibility(View.GONE);
+      // fab.setVisibility(View.GONE);
       TextView emptyTitle = ViewUtil.findById(view, R.id.empty_title);
       emptyTitle.setText(R.string.archive_empty_hint);
     } else {
-      fab.setVisibility(View.VISIBLE);
+      // fab.setVisibility(View.VISIBLE);
     }
 
     list.setHasFixedSize(true);
@@ -126,8 +139,13 @@ public class ConversationListFragment extends BaseConversationListFragment
   public void onActivityCreated(Bundle bundle) {
     super.onActivityCreated(bundle);
 
+    // chatButton.setOnClickListener(v -> new Intent(getActivity(), ConversationListActivity.class));
+    contactButton.setOnClickListener(v -> startActivity(new Intent(getActivity(), NewConversationActivity.class)));
+    webxdcButton.setOnClickListener(v -> startActivity(new Intent(getActivity(), WebxdcStoreActivity.class)));
+    settingsButton.setOnClickListener(v -> startActivity(new Intent(getActivity(), ApplicationPreferencesActivity.class)));
+
     setHasOptionsMenu(true);
-    initializeFabClickListener(false);
+    // initializeFabClickListener(false);
     list.setAdapter(new ConversationListAdapter(requireActivity(), GlideApp.with(this), this));
     loadChatlistAsync();
     chatlistJustLoaded = true;
@@ -164,11 +182,11 @@ public class ConversationListFragment extends BaseConversationListFragment
     reloadTimer.cancel();
     reloadTimerInstantly = true;
 
-    fab.stopPulse();
+    // fab.stopPulse();
   }
 
   public void onNewIntent() {
-    initializeFabClickListener(actionMode != null);
+    // initializeFabClickListener(actionMode != null);
   }
 
   @Override
@@ -277,7 +295,7 @@ public class ConversationListFragment extends BaseConversationListFragment
         list.setVisibility(View.INVISIBLE);
         emptyState.setVisibility(View.VISIBLE);
         emptySearch.setVisibility(View.INVISIBLE);
-        fab.startPulse(3 * 1000);
+        // fab.startPulse(3 * 1000);
       } else if (chatlist.getCnt() <= 0 && !TextUtils.isEmpty(queryFilter)) {
         list.setVisibility(View.INVISIBLE);
         emptyState.setVisibility(View.GONE);
@@ -287,7 +305,7 @@ public class ConversationListFragment extends BaseConversationListFragment
         list.setVisibility(View.VISIBLE);
         emptyState.setVisibility(View.GONE);
         emptySearch.setVisibility(View.INVISIBLE);
-        fab.stopPulse();
+        // fab.stopPulse();
       }
 
       ((ConversationListAdapter)list.getAdapter()).changeData(chatlist);
@@ -301,7 +319,7 @@ public class ConversationListFragment extends BaseConversationListFragment
 
   @Override
   protected void setFabVisibility(boolean isActionMode) {
-    fab.setVisibility((isActionMode || !archive)? View.VISIBLE : View.GONE);
+    // fab.setVisibility((isActionMode || !archive)? View.VISIBLE : View.GONE);
   }
 
   @Override
