@@ -30,7 +30,7 @@ android {
         versionCode 710
         versionName "1.52.1"
 
-        applicationId "com.b44t.messenger"
+        applicationId "com.forkstar.messenger"
         multiDexEnabled true
 
         minSdkVersion 21
@@ -116,7 +116,7 @@ android {
         }
         gplay {
             dimension "none"
-            applicationId "chat.delta"
+            applicationId "chat.forkstar"
             apply plugin: "com.google.gms.google-services"
             buildConfigField "boolean", "USE_PLAY_SERVICES", "true"
         }

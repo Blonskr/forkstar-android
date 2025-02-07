@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "922391085500",
-    "project_id": "delta-chat-fcm",
-    "storage_bucket": "delta-chat-fcm.appspot.com"
+    "project_number": "491336516313",
+    "project_id": "forkstar",
+    "storage_bucket": "forkstar.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:922391085500:android:938fa7a685ce74ba3e2bb9",
+        "mobilesdk_app_id": "1:491336516313:android:b363bca03cac91ec11f4c8",
         "android_client_info": {
-          "package_name": "chat.delta"
+          "package_name": "chat.forkstar"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBYH8Iznh8btYX7g_udv_bu68VH30zzxho"
+          "current_key": "AIzaSyAxXOD6gxqC-MRefsyebGkc6KmfI859yXk"
         }
       ],
       "services": {
@@ -26,53 +26,15 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:922391085500:android:6f54e2c4e49405673e2bb9",
+        "mobilesdk_app_id": "1:491336516313:android:f66a714fb033074a11f4c8",
         "android_client_info": {
-          "package_name": "chat.delta.beta"
+          "package_name": "chat.forkstar.beta"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBYH8Iznh8btYX7g_udv_bu68VH30zzxho"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:922391085500:android:92b4cf12669cc2083e2bb9",
-        "android_client_info": {
-          "package_name": "com.b44t.messenger"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBYH8Iznh8btYX7g_udv_bu68VH30zzxho"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:922391085500:android:228a205b8aa2bacc3e2bb9",
-        "android_client_info": {
-          "package_name": "com.b44t.messenger.beta"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBYH8Iznh8btYX7g_udv_bu68VH30zzxho"
+          "current_key": "AIzaSyAxXOD6gxqC-MRefsyebGkc6KmfI859yXk"
         }
       ],
       "services": {
