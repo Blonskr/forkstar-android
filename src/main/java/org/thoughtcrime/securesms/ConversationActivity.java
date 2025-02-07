@@ -16,6 +16,7 @@
  */
 package org.thoughtcrime.securesms;
 
+import static com.b44t.messenger.DcChat.DC_CHAT_TYPE_GROUP;
 import static org.thoughtcrime.securesms.TransportOption.Type;
 import static org.thoughtcrime.securesms.util.RelayUtil.getSharedText;
 import static org.thoughtcrime.securesms.util.RelayUtil.isForwarding;
@@ -107,6 +108,7 @@ import org.thoughtcrime.securesms.mms.QuoteModel;
 import org.thoughtcrime.securesms.mms.SlideDeck;
 import org.thoughtcrime.securesms.permissions.Permissions;
 import org.thoughtcrime.securesms.providers.PersistentBlobProvider;
+import org.thoughtcrime.securesms.qr.QrShowActivity;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.scribbles.ScribbleActivity;
 import org.thoughtcrime.securesms.util.DynamicTheme;
@@ -462,6 +464,8 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
       menu.findItem(R.id.menu_archive_chat).setTitle(R.string.menu_unarchive_chat);
     }
 
+    menu.findItem(R.id.menu_group_qr).setVisible(dcChat.getType() == DC_CHAT_TYPE_GROUP);
+
 
     Util.redMenuItem(menu, R.id.menu_leave);
     Util.redMenuItem(menu, R.id.menu_clear_chat);
@@ -523,6 +527,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
       case R.id.menu_search_down:           handleMenuSearchNext(true);        return true;
       case android.R.id.home:               handleReturnToConversationList();  return true;
       case R.id.menu_ephemeral_messages:    handleEphemeralMessages();         return true;
+      case R.id.menu_group_qr:             handleGroupQr();                  return true;
     }
 
     return false;
@@ -682,6 +687,12 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
               .setOnCancelListener(dialog -> finish())
               .show();
     }
+  }
+
+  private void handleGroupQr() {
+    Intent qrIntent = new Intent(this, QrShowActivity.class);
+    qrIntent.putExtra(QrShowActivity.CHAT_ID, chatId);
+    startActivity(qrIntent);
   }
 
   private void askSendingFiles(ArrayList<Uri> uriList, Runnable onConfirm) {
@@ -1634,7 +1645,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
       messageRequestBottomView.setQuestion(getString(R.string.chat_protection_broken, name));
       messageRequestBottomView.setAcceptText(R.string.ok);
 
-    } else if (dcChat.getType() == DcChat.DC_CHAT_TYPE_GROUP) {
+    } else if (dcChat.getType() == DC_CHAT_TYPE_GROUP) {
       // We don't support blocking groups yet, so offer to delete it instead
       messageRequestBottomView.setBlockText(R.string.delete);
       messageRequestBottomView.setBlockOnClickListener(v -> handleDeleteChat());

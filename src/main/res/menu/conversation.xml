@@ -39,6 +39,9 @@
     <item android:title="@string/menu_archive_chat"
         android:id="@+id/menu_archive_chat"/>
 
+    <item android:title="@string/qrshow_title"
+        android:id="@+id/menu_group_qr"/>
+
     <item android:title="@string/menu_more_options">
         <menu>
             <item android:title="@string/menu_add_attachment"
