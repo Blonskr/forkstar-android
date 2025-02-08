@@ -254,7 +254,7 @@ public class ProfileActivity extends PassphraseRequiredActionBarActivity
     tabs.add(TAB_GALLERY);
     tabs.add(TAB_AUDIO);
     tabs.add(TAB_DOCS);
-    tabs.add(TAB_WEBXDC);
+    // tabs.add(TAB_WEBXDC);
     //tabs.add(TAB_LINKS);
     //if(Prefs.isLocationStreamingEnabled(this)) {
     //  tabs.add(TAB_MAP);
