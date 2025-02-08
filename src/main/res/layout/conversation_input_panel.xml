@@ -48,6 +48,33 @@
             android:clipChildren="false"
             android:clipToPadding="false">
 
+            <org.thoughtcrime.securesms.components.emoji.EmojiToggle
+                android:id="@+id/emoji_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:minHeight="40dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:background="@drawable/touch_highlight_background"
+                android:contentDescription="@string/menu_toggle_keyboard" />
+
+            <org.thoughtcrime.securesms.components.ComposeText
+                style="@style/ComposeEditText"
+                android:id="@+id/embedded_text_editor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:nextFocusForward="@+id/send_button"
+                android:nextFocusRight="@+id/send_button"
+                tools:visibility="invisible"
+                tools:hint="Send message" >
+                <requestFocus />
+            </org.thoughtcrime.securesms.components.ComposeText>
+
             <org.thoughtcrime.securesms.components.HidingLinearLayout
                 android:id="@+id/quick_attachment_toggle"
                 android:layout_width="wrap_content"
@@ -83,33 +110,6 @@
                 </org.thoughtcrime.securesms.components.MicrophoneRecorderView>
 
             </org.thoughtcrime.securesms.components.HidingLinearLayout>
-
-            <org.thoughtcrime.securesms.components.ComposeText
-                style="@style/ComposeEditText"
-                android:id="@+id/embedded_text_editor"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="2dp"
-                android:layout_marginRight="2dp"
-                android:layout_gravity="center_vertical"
-                android:layout_weight="1"
-                android:nextFocusForward="@+id/send_button"
-                android:nextFocusRight="@+id/send_button"
-                tools:visibility="invisible"
-                tools:hint="Send message" >
-                <requestFocus />
-            </org.thoughtcrime.securesms.components.ComposeText>
-
-            <org.thoughtcrime.securesms.components.emoji.EmojiToggle
-                android:id="@+id/emoji_toggle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:minHeight="40dp"
-                android:paddingLeft="6dp"
-                android:paddingRight="6dp"
-                android:background="@drawable/touch_highlight_background"
-                android:contentDescription="@string/menu_toggle_keyboard" />
 
         </LinearLayout>
 
