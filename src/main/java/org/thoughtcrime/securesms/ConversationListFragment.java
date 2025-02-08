@@ -75,7 +75,7 @@ public class ConversationListFragment extends BaseConversationListFragment
   private boolean                     reloadTimerInstantly;
 
   // TIP: add tab bar
-  private ImageView chatButton;
+  // private ImageView chatButton;
   private ImageView contactButton;
   private ImageView webxdcButton;
   private ImageView settingsButton;
@@ -115,7 +115,7 @@ public class ConversationListFragment extends BaseConversationListFragment
     emptyState   = ViewUtil.findById(view, R.id.empty_state);
     emptySearch  = ViewUtil.findById(view, R.id.empty_search);
 
-    chatButton = ViewUtil.findById(view, R.id.chat_button);
+    // chatButton = ViewUtil.findById(view, R.id.chat_button);
     contactButton = ViewUtil.findById(view, R.id.contact_button);
     webxdcButton = ViewUtil.findById(view, R.id.webxdc_button);
     settingsButton = ViewUtil.findById(view, R.id.menu_settings_button);
