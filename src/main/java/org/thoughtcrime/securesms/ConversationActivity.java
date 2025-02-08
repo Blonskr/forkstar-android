@@ -842,7 +842,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     backgroundView        = ViewUtil.findById(this, R.id.conversation_background);
     messageRequestBottomView = ViewUtil.findById(this, R.id.conversation_activity_message_request_bottom_bar);
 
-    ImageButton quickCameraToggle = ViewUtil.findById(this, R.id.quick_camera_toggle);
+    // ImageButton quickCameraToggle = ViewUtil.findById(this, R.id.quick_camera_toggle);
 
     container.addOnKeyboardShownListener(this);
     container.addOnKeyboardHiddenListener(backgroundView);
@@ -877,7 +877,7 @@ public class ConversationActivity extends PassphraseRequiredActionBarActivity
     composeText.setOnFocusChangeListener(composeKeyPressedListener);
 
     quickAttachmentDrawer.setListener(this);
-    quickCameraToggle.setOnClickListener(new QuickCameraToggleListener());
+    // quickCameraToggle.setOnClickListener(new QuickCameraToggleListener());
 
     initializeBackground();
   }

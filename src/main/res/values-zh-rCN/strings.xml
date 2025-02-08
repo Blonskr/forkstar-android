@@ -171,9 +171,9 @@
     <string name="file">文件</string>
     <string name="files">文件</string>
     <!-- "App" is used to present "Webxdc App" (https://webxdc.org) in a user friendly way. Please stay close to the original term and keep it short (it is used in menus with few screen space). -->
-    <string name="webxdc_app">私人应用</string>
+    <string name="webxdc_app">广场</string>
     <!-- plural of "App"; used to present "Webxdc App" (https://webxdc.org) in a user friendly way. Please stay close to the original term and keep it short (it is used in menus with few screen space). -->
-    <string name="webxdc_apps">私人应用</string>
+    <string name="webxdc_apps">广场</string>
     <string name="webxdc_store_url">\"应用选择器“ URL</string>
     <string name="webxdc_store_url_explain">设置后，该 URL 而不是默认的 URL 将被用作“应用选择器”</string>
     <string name="home">首页</string>

@@ -55,7 +55,7 @@ public class InputPanel extends ConstraintLayout
   private QuoteView       quoteView;
   private EmojiToggle     emojiToggle;
   private ComposeText     composeText;
-  private View            quickCameraToggle;
+  // private View            quickCameraToggle;
   private View            quickAudioToggle;
   private View            buttonToggle;
   private View            recordingContainer;
@@ -90,7 +90,7 @@ public class InputPanel extends ConstraintLayout
     this.quoteView              = findViewById(R.id.quote_view);
     this.emojiToggle            = findViewById(R.id.emoji_toggle);
     this.composeText            = findViewById(R.id.embedded_text_editor);
-    this.quickCameraToggle      = findViewById(R.id.quick_camera_toggle);
+    // this.quickCameraToggle      = findViewById(R.id.quick_camera_toggle);
     this.quickAudioToggle       = findViewById(R.id.quick_audio_toggle);
     this.buttonToggle           = findViewById(R.id.button_toggle);
     this.recordingContainer     = findViewById(R.id.recording_container);
@@ -211,7 +211,7 @@ public class InputPanel extends ConstraintLayout
 
     ViewUtil.fadeOut(emojiToggle, FADE_TIME, View.INVISIBLE);
     ViewUtil.fadeOut(composeText, FADE_TIME, View.INVISIBLE);
-    ViewUtil.fadeOut(quickCameraToggle, FADE_TIME, View.INVISIBLE);
+    // ViewUtil.fadeOut(quickCameraToggle, FADE_TIME, View.INVISIBLE);
     ViewUtil.fadeOut(quickAudioToggle, FADE_TIME, View.INVISIBLE);
     buttonToggle.animate().alpha(0).setDuration(FADE_TIME).start();
   }
@@ -266,7 +266,7 @@ public class InputPanel extends ConstraintLayout
     composeText.setEnabled(enabled);
     emojiToggle.setEnabled(enabled);
     quickAudioToggle.setEnabled(enabled);
-    quickCameraToggle.setEnabled(enabled);
+    // quickCameraToggle.setEnabled(enabled);
   }
 
   private long onRecordHideEvent() {
@@ -280,7 +280,7 @@ public class InputPanel extends ConstraintLayout
       public void onSuccess(Void result) {
         ViewUtil.fadeIn(emojiToggle, FADE_TIME);
         ViewUtil.fadeIn(composeText, FADE_TIME);
-        ViewUtil.fadeIn(quickCameraToggle, FADE_TIME);
+        // ViewUtil.fadeIn(quickCameraToggle, FADE_TIME);
         ViewUtil.fadeIn(quickAudioToggle, FADE_TIME);
         buttonToggle.animate().alpha(1).setDuration(FADE_TIME).start();
         composeText.requestFocus();
