@@ -1,5 +1,7 @@
 package org.thoughtcrime.securesms;
 
+import static android.webkit.WebSettings.LOAD_NO_CACHE;
+
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
@@ -53,25 +55,26 @@ public class WebxdcStoreActivity extends PassphraseRequiredActionBarActivity {
     webView.setWebViewClient(new WebViewClient() {
       @Override
       public boolean shouldOverrideUrlLoading(WebView view, String url) {
-        String ext = MediaUtil.getFileExtensionFromUrl(Uri.parse(url).getPath());
-        if ("xdc".equals(ext)) {
-          Util.runOnAnyBackgroundThread(() -> {
-            try {
-              HttpResponse httpResponse = rpc.getHttpResponse(dcContext.getAccountId(), url);
-              Uri uri = PersistentBlobProvider.getInstance().create(WebxdcStoreActivity.this, httpResponse.getBlob(), "application/octet-stream", "app.xdc");
-              Intent intent = new Intent();
-              intent.setData(uri);
-              setResult(Activity.RESULT_OK, intent);
-              finish();
-            } catch (RpcException e) {
-              e.printStackTrace();
-              Util.runOnMain(() -> Toast.makeText(WebxdcStoreActivity.this, "Error: " + e.getMessage(), Toast.LENGTH_LONG).show());
-            }
-          });
-        } else {
-          IntentUtils.showInBrowser(WebxdcStoreActivity.this, url);
-        }
-        return true;
+        return false;
+//        String ext = MediaUtil.getFileExtensionFromUrl(Uri.parse(url).getPath());
+//        if ("xdc".equals(ext)) {
+//          Util.runOnAnyBackgroundThread(() -> {
+//            try {
+//              HttpResponse httpResponse = rpc.getHttpResponse(dcContext.getAccountId(), url);
+//              Uri uri = PersistentBlobProvider.getInstance().create(WebxdcStoreActivity.this, httpResponse.getBlob(), "application/octet-stream", "app.xdc");
+//              Intent intent = new Intent();
+//              intent.setData(uri);
+//              setResult(Activity.RESULT_OK, intent);
+//              finish();
+//            } catch (RpcException e) {
+//              e.printStackTrace();
+//              Util.runOnMain(() -> Toast.makeText(WebxdcStoreActivity.this, "Error: " + e.getMessage(), Toast.LENGTH_LONG).show());
+//            }
+//          });
+//        } else {
+//          IntentUtils.showInBrowser(WebxdcStoreActivity.this, url);
+//        }
+//        return true;
       }
 
       @TargetApi(Build.VERSION_CODES.N)
@@ -80,21 +83,22 @@ public class WebxdcStoreActivity extends PassphraseRequiredActionBarActivity {
         return shouldOverrideUrlLoading(view, request.getUrl().toString());
       }
 
-      @Override
-      public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
-        return interceptRequest(request.getUrl().toString());
-      }
+//      @Override
+//      public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
+//        return interceptRequest(request.getUrl().toString());
+//      }
     });
 
     WebSettings webSettings = webView.getSettings();
     webSettings.setJavaScriptEnabled(true);
-    webSettings.setAllowFileAccess(false);
-    webSettings.setAllowContentAccess(false);
+    webSettings.setAllowFileAccess(true);
+    webSettings.setAllowContentAccess(true);
     webSettings.setGeolocationEnabled(false);
-    webSettings.setAllowFileAccessFromFileURLs(false);
-    webSettings.setAllowUniversalAccessFromFileURLs(false);
+    webSettings.setAllowFileAccessFromFileURLs(true);
+    webSettings.setAllowUniversalAccessFromFileURLs(true);
     webSettings.setDatabaseEnabled(true);
     webSettings.setDomStorageEnabled(true);
+    webSettings.setCacheMode(LOAD_NO_CACHE);
     webView.setNetworkAvailable(true); // this does not block network but sets `window.navigator.isOnline` in js land
 
     webView.loadUrl(Prefs.getWebxdcStoreUrl(this));
