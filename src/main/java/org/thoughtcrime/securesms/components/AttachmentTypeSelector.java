@@ -54,7 +54,7 @@ public class AttachmentTypeSelector extends PopupWindow {
   private final @NonNull ImageView           cameraButton;
   private final @NonNull ImageView           videoButton;
   private final @NonNull ImageView           locationButton;
-  private final @NonNull ImageView           webxdcButton;
+  // private final @NonNull ImageView           webxdcButton;
 
   private @Nullable View                      currentAnchor;
   private @Nullable AttachmentClickedListener listener;
@@ -77,7 +77,7 @@ public class AttachmentTypeSelector extends PopupWindow {
     this.cameraButton   = ViewUtil.findById(layout, R.id.camera_button);
     this.videoButton    = ViewUtil.findById(layout, R.id.record_video_button);
     this.locationButton = ViewUtil.findById(layout, R.id.location_button);
-    this.webxdcButton   = ViewUtil.findById(layout, R.id.webxdc_button);
+    // this.webxdcButton   = ViewUtil.findById(layout, R.id.webxdc_button);
 
     this.imageButton.setOnClickListener(new PropagatingClickListener(ADD_GALLERY));
     this.videoChatButton.setOnClickListener(new PropagatingClickListener(INVITE_VIDEO_CHAT));
@@ -86,7 +86,7 @@ public class AttachmentTypeSelector extends PopupWindow {
     this.cameraButton.setOnClickListener(new PropagatingClickListener(TAKE_PHOTO));
     this.videoButton.setOnClickListener(new PropagatingClickListener(RECORD_VIDEO));
     this.locationButton.setOnClickListener(new PropagatingClickListener(ADD_LOCATION));
-    this.webxdcButton.setOnClickListener(new PropagatingClickListener(ADD_WEBXDC));
+    // this.webxdcButton.setOnClickListener(new PropagatingClickListener(ADD_WEBXDC));
     this.recentRail.setListener(new RecentPhotoSelectedListener());
 
     if (!Prefs.isLocationStreamingEnabled(context)) {
@@ -139,7 +139,7 @@ public class AttachmentTypeSelector extends PopupWindow {
     animateButtonIn(contactButton, ANIMATION_DURATION / 3);
     animateButtonIn(locationButton, ANIMATION_DURATION / 4);
     animateButtonIn(documentButton, ANIMATION_DURATION / 4);
-    animateButtonIn(webxdcButton, 0);
+    // animateButtonIn(webxdcButton, 0);
     animateButtonIn(videoChatButton, 0);
   }
 
