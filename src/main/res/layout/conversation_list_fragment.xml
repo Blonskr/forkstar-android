@@ -96,10 +96,10 @@
                 android:id="@+id/contact_button"
                 android:layout_width="53dp"
                 android:layout_height="53dp"
-                android:src="@drawable/attach_record_video"
+                android:src="@drawable/tab_bar_contact"
                 android:scaleType="center"
                 android:contentDescription="@string/contact"
-                app:circleColor="#00FFFFFF"/>
+                app:circleColor="#00000000"/>
 
             <TextView android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
@@ -119,10 +119,10 @@
                 android:id="@+id/webxdc_button"
                 android:layout_width="53dp"
                 android:layout_height="53dp"
-                android:src="@drawable/ic_image_white_24dp"
+                android:src="@drawable/tab_bar_app"
                 android:scaleType="center"
                 android:contentDescription="@string/webxdc_app"
-                app:circleColor="@color/gallery_icon"/>
+                app:circleColor="#00FFFFFF"/>
 
             <TextView android:layout_marginTop="10dp"
                 style="@style/AttachmentTypeLabel"
@@ -143,11 +143,11 @@
                 android:id="@+id/menu_settings_button"
                 android:layout_width="53dp"
                 android:layout_height="53dp"
-                android:src="@drawable/ic_location_on_white_24dp"
+                android:src="@drawable/tab_bar_setting"
                 android:scaleType="center"
                 android:visibility="visible"
                 android:contentDescription="@string/menu_settings"
-                app:circleColor="@color/location_icon"/>
+                app:circleColor="#00FFFFFF"/>
 
             <TextView android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
