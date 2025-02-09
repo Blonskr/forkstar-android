@@ -121,7 +121,9 @@ public abstract class BaseConversationListFragment extends Fragment implements A
         fab.setOnClickListener(v -> requireActivity().startActivity(intent));
       }
     } else {
-      fab.setOnClickListener(v -> startActivity(intent));
+      if (fab != null) {
+        fab.setOnClickListener(v -> startActivity(intent));
+      }
     }
   }
 
@@ -398,7 +400,7 @@ public abstract class BaseConversationListFragment extends Fragment implements A
     color.recycle();
 
     Context context = getContext();
-    if (context != null) {
+    if (context != null && fab != null) {
       fab.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.ic_add_white_24dp));
     }
     setFabVisibility(false);
