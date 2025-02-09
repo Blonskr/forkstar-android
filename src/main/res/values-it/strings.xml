@@ -47,7 +47,7 @@
     <string name="mute">Silenzia</string>
     <string name="muted">Disattivato</string>
     <string name="ephemeral_messages">Messaggi a Scomparsa</string>
-    <string name="ephemeral_messages_hint">Si applica a tutti i membri di questa chat se utilizzano Delta Chat; possono comunque copiare, salvare e inoltrare messaggi o utilizzare altri client e-mail.</string>
+    <string name="ephemeral_messages_hint">Si applica a tutti i membri di questa chat se utilizzano ForkStar; possono comunque copiare, salvare e inoltrare messaggi o utilizzare altri client e-mail.</string>
     <string name="save">Salva</string>
     <string name="chat">Chat</string>
     <string name="media">Media</string>
@@ -259,7 +259,7 @@
     <string name="share_invite_link_explain">Chiunque abbia questo collegamento può visualizzare il tuo profilo e iniziare una chat con te. Condividilo solo con persone di cui ti fidi.</string>
     <string name="invite_friends">Invita Amici</string>
     <!-- %1$s is replaced by the user's invitation link ("https://i.delta.chat/...") -->
-    <string name="invite_friends_text">Contattami su Delta Chat:\n%1$s</string>
+    <string name="invite_friends_text">Contattami su ForkStar:\n%1$s</string>
     <string name="menu_copy_selection_to_clipboard">Copia Selezione</string>
     <string name="menu_copy_link_to_clipboard">Copia Collegamento</string>
     <string name="menu_copy_text_to_clipboard">Copia Testo</string>
@@ -358,7 +358,7 @@
     <string name="videochat_tap_to_open">Tocca per Aprire</string>
     <string name="videochat_instance">Istanza Chat Video</string>
     <string name="videochat_instance_placeholder">La Tua Istanza Chat Video</string>
-    <!-- Do not translate "$ROOM", since it is a fixed token Delta Chat will replace with a generated room ID like "aOclju5eCky" -->
+    <!-- Do not translate "$ROOM", since it is a fixed token ForkStar will replace with a generated room ID like "aOclju5eCky" -->
     <string name="videochat_instance_example">Esempio: https://your-server.org/$ROOM</string>
     <string name="videochat_instance_explain_2">Se abilitata, è possibile avviare una chat video da ogni chat. Richiedono un\'applicazione compatibile o un browser compatibile da entrambe le parti.</string>
     <string name="videochat_instance_from_qr">Utilizza \"%1$s\" per invitare altri alla chat video?\n\nUna volta impostato, è possibile avviare una chat video da ogni chat. Ciò sostituirà l\'eventuale impostazione precedente per le chat video.</string>
@@ -546,9 +546,9 @@
     <string name="multidevice_title">Aggiungi Secondo Dispositivo</string>
     <string name="multidevice_same_network_hint">Assicurati che entrambi i dispositivi siano sulla stessa rete o Wi-Fi.</string>
     <string name="multidevice_this_creates_a_qr_code">Questo crea un codice QR che il secondo dispositivo può scansionare per copiare il profilo.</string>
-    <string name="multidevice_install_dc_on_other_device">Installa Delta Chat sull\'altro tuo dispositivo (https://get.delta.chat)</string>
+    <string name="multidevice_install_dc_on_other_device">Installa ForkStar sull\'altro tuo dispositivo (https://get.delta.chat)</string>
     <!-- "I Already Have a Profile / Add as Second Device” should be the same text as defined by the keys onboarding_alternative_logins and multidevice_receiver_title -->
-    <string name="multidevice_tap_scan_on_other_device">Avvia Delta Chat, tocca \"Ho già un Profilo / Aggiungi come Secondo Dispositivo\" e scansiona il codice mostrato qui</string>
+    <string name="multidevice_tap_scan_on_other_device">Avvia ForkStar, tocca \"Ho già un Profilo / Aggiungi come Secondo Dispositivo\" e scansiona il codice mostrato qui</string>
     <!-- Shown inside a "QR code card" with very limited space; please formulate the text as short as possible therefore. The placeholder will be replaced by name and/or address eg. "Scan to set up second device for Alice (alice@example.org)" -->
     <string name="multidevice_qr_subtitle">Scansiona per impostare un secondo dispositivo per %1$s</string>
     <string name="multidevice_receiver_title">Aggiungi come Secondo Dispositivo</string>
@@ -624,7 +624,7 @@
     <!-- for classic email, we use the classical term "Account" -->
     <string name="login_explain">Accedi con un profilo e-mail esistente</string>
     <string name="login_subheader">Per i provider e-mail noti vengono impostate automaticamente impostazioni aggiuntive. A volte è necessario abilitare IMAP nelle impostazioni Web. Consulta il tuo provider e-mail o i tuoi amici per ricevere assistenza.</string>
-    <string name="login_no_servers_hint">Delta Chat non raccoglie dati utente: tutto rimane sul tuo dispositivo.</string>
+    <string name="login_no_servers_hint">ForkStar non raccoglie dati utente: tutto rimane sul tuo dispositivo.</string>
     <string name="login_inbox">In Arrivo</string>
     <string name="login_imap_login">Nome Accesso IMAP</string>
     <string name="login_imap_server">Server IMAP</string>
@@ -660,7 +660,7 @@
     <string name="login_socks5_password">SOCKS5 Password</string>
 
     <string name="login_info_oauth2_title">Continuare con la configurazione semplificata?</string>
-    <string name="login_info_oauth2_text">L\'indirizzo e-mail inserito supporta una configurazione semplificata (OAuth 2.0).\n\nNel passaggio successivo, per piacere consenti a Delta Chat di fungere da app Chat tramite e-mail.\n\nDelta Chat non raccoglie dati utente, tutto rimane sul tuo dispositivo.</string>
+    <string name="login_info_oauth2_text">L\'indirizzo e-mail inserito supporta una configurazione semplificata (OAuth 2.0).\n\nNel passaggio successivo, per piacere consenti a ForkStar di fungere da app Chat tramite e-mail.\n\nForkStar non raccoglie dati utente, tutto rimane sul tuo dispositivo.</string>
     <string name="login_certificate_checks">Controlli Certificato</string>
     <string name="login_error_mail">Per piacere Inserisci un indirizzo e-mail valido</string>
     <string name="login_error_server">Per piacere inserisci un server / indirizzo IP valido</string>
@@ -712,7 +712,7 @@
     <string name="pref_password_and_account_settings">Password e Profilo</string>
     <string name="pref_who_can_see_profile_explain">La tua immagine del profilo, il tuo nome e la tua biografia verranno inviati insieme ai tuoi messaggi quando comunichi con altri utenti.</string>
     <string name="pref_your_name">Il tuo Nome</string>
-    <!-- Translators: Visible only to recipients who DO NOT use Delta Chat, so it's the last line in an E-mail and not a "Status". -->
+    <!-- Translators: Visible only to recipients who DO NOT use ForkStar, so it's the last line in an E-mail and not a "Status". -->
     <string name="pref_default_status_label">Biografia</string>
     <string name="pref_enter_sends">Spedisci con Invio</string>
     <string name="pref_enter_sends_explain">Premendo il tasto Invio invierà i messaggi</string>
@@ -754,7 +754,7 @@
     <string name="pref_encryption">Criptazione</string>
     <string name="pref_manage_keys">Gestisci Chiavi</string>
     <string name="pref_use_system_emoji">Usa Emoji di Sistema</string>
-    <string name="pref_use_system_emoji_explain">Disattiva il supporto delle emoji integrato in Delta Chat</string>
+    <string name="pref_use_system_emoji_explain">Disattiva il supporto delle emoji integrato in ForkStar</string>
     <string name="pref_use_inapp_camera">Usa Fotocamera App</string>
     <string name="pref_use_inapp_camera_explain">La fotocamera dell\'app di solito ha meno funzionalità della fotocamera di sistema</string>
     <string name="pref_show_system_contacts">Leggi Rubrica di Sistema</string>
@@ -827,7 +827,7 @@
     <string name="pref_edit_profile">Modifica Profilo</string>
     <string name="disable_imap_idle">Disabilita IMAP IDLE</string>
     <string name="disable_imap_idle_explain">Non utilizzare l\'estensione IMAP IDLE anche se il server la supporta. L\'abilitazione di questa opzione ritarderà il recupero del messaggio, abilitarla solo a scopo di test.</string>
-    <string name="send_stats_to_devs">Invia statistiche agli sviluppatori di Delta Chat</string>
+    <string name="send_stats_to_devs">Invia statistiche agli sviluppatori di ForkStar</string>
 
 
     <!-- Emoji picker and categories -->
@@ -859,9 +859,9 @@
     <!-- %1$d will be replaced by the number of messages, you can assume plural/lots here. %2$s will be replaced by a timespan option. -->
     <string name="autodel_device_ask">Vuoi eliminare %1$d messaggi ora e tutti i nuovi messaggi recuperati \"%2$s\" d\'ora in poi?\n\n• Questo include tutti i media\n\n• I messaggi verranno eliminati anche se non sono stati letti\n\n• I \"Messaggi salvati\" vengono preservati dalla cancellazione locale.</string>
     <!-- %1$d will be replaced by the number of messages, you can assume plural/lots here. %2$s will be replaced by a timespan option. -->
-    <string name="autodel_server_ask">Vuoi eliminare %1$d messaggi ora e tutti i messaggi appena recuperati \"%2$s\" d\'ora in poi?\n\n⚠️ Ciò include e-mails, contenuti multimediali e \"Messaggi salvati\" in tutte le cartelle del server\n\n⚠️ Non utilizzare questa funzione se vuoi mantenere i dati sul server\n\n⚠️ Non utilizzare questa funzione se stai utilizzando altri client e-mail oltre a Delta Chat</string>
+    <string name="autodel_server_ask">Vuoi eliminare %1$d messaggi ora e tutti i messaggi appena recuperati \"%2$s\" d\'ora in poi?\n\n⚠️ Ciò include e-mails, contenuti multimediali e \"Messaggi salvati\" in tutte le cartelle del server\n\n⚠️ Non utilizzare questa funzione se vuoi mantenere i dati sul server\n\n⚠️ Non utilizzare questa funzione se stai utilizzando altri client e-mail oltre a ForkStar</string>
     <!-- shown below enabled autodel_server-option, should be a summary of autodel_server_ask and remind about the impact -->
-    <string name="autodel_server_enabled_hint">Questo include e-mail, media e \"Messaggi salvati\" in tutte le cartelle del server. Non utilizzare questa funzione se desideri mantenere i dati sul server o se stai utilizzando altri client e-mail oltre a Delta Chat.</string>
+    <string name="autodel_server_enabled_hint">Questo include e-mail, media e \"Messaggi salvati\" in tutte le cartelle del server. Non utilizzare questa funzione se desideri mantenere i dati sul server o se stai utilizzando altri client e-mail oltre a ForkStar.</string>
     <string name="autodel_server_warn_multi_device_title">Attiva l\'eliminazione immediata</string>
     <string name="autodel_server_warn_multi_device">Se abiliti l\'eliminazione immediata non potrai utilizzare questo profilo su più dispositivi.</string>
     <string name="autodel_confirm">Ho capito, elimina tutti questi messaggi</string>
@@ -898,7 +898,7 @@
     <string name="systemmsg_read_receipt_subject">Messaggio aperto</string>
     <!-- deprecated -->
     <string name="systemmsg_read_receipt_body">Il messaggio \"%1$s\" inviato è stato visualizzato sullo schermo del destinatario.\n\nNon vi è alcuna garanzia che il contenuto sia stato letto.</string>
-    <string name="systemmsg_cannot_decrypt">Questo messaggio non può essere decrittografato.\n\n• Potrebbe essere già utile rispondere semplicemente a questo messaggio e chiedere al mittente d\'inviare nuovamente il messaggio.\n\n• Se hai appena reinstallato Delta Chat, è meglio se riconfiguri ora Delta Chat e scegli \"Aggiungi come secondo dispositivo\" o importa un backup.</string>
+    <string name="systemmsg_cannot_decrypt">Questo messaggio non può essere decrittografato.\n\n• Potrebbe essere già utile rispondere semplicemente a questo messaggio e chiedere al mittente d\'inviare nuovamente il messaggio.\n\n• Se hai appena reinstallato ForkStar, è meglio se riconfiguri ora ForkStar e scegli \"Aggiungi come secondo dispositivo\" o importa un backup.</string>
     <string name="systemmsg_unknown_sender_for_chat">Mittente sconosciuto per questa chat. Vedi \'info\' per maggiori dettagli.</string>
     <string name="systemmsg_subject_for_new_contact">Messaggio da %1$s</string>
     <string name="systemmsg_failed_sending_to">Impossibile inviare messaggio a %1$s.</string>
@@ -969,7 +969,7 @@
     <string name="chat_protection_enabled_tap_to_learn_more">D\'ora in poi i messaggi saranno garantiti crittografati end-to-end.  Tocca per saperne di più.</string>
     <string name="chat_protection_enabled_explanation">Ora è garantito che tutti i messaggi in questa chat siano crittografati end-to-end.\n\nLa crittografia end-to-end mantiene i messaggi privati ​​tra te e i tuoi partner di chat. Nemmeno il tuo provider email può leggerli.</string>
     <string name="chat_protection_broken_tap_to_learn_more">%1$s ha inviato un messaggio da un altro dispositivo. Tocca per saperne di più.</string>
-    <string name="chat_protection_broken_explanation">La crittografia end-to-end non può più essere garantita, probabilmente perché %1$s ha reinstallato Delta Chat o inviato un messaggio da un altro dispositivo.\n\nPuoi incontrarlo di persona e scansionare nuovamente il suo Codice QR per ristabilire la crittografia end-to-end garantita.</string>
+    <string name="chat_protection_broken_explanation">La crittografia end-to-end non può più essere garantita, probabilmente perché %1$s ha reinstallato ForkStar o inviato un messaggio da un altro dispositivo.\n\nPuoi incontrarlo di persona e scansionare nuovamente il suo Codice QR per ristabilire la crittografia end-to-end garantita.</string>
     <string name="invalid_unencrypted_tap_to_learn_more">⚠️ %1$s richiede la crittografia end-to-end che non è ancora configurata per questa chat. Tocca per saperne di più.</string>
     <string name="invalid_unencrypted_explanation">Per stabilire la crittografia end-to-end, potresti incontrare i contatti di persona e scansionare il loro Codice QR per verificarli.</string>
     <!-- deprecated -->
@@ -981,7 +981,7 @@
     <string name="devicemsg_storage_exceeding">⚠️ Lo spazio di archiviazione del tuo fornitore sta per esaurirsi:%1$s%% sono già utilizzati.\n\nPotresti non essere in grado di ricevere messaggi se lo spazio di archiviazione è pieno.\n\n👉 Per piacere controlla se puoi eliminare i vecchi dati nell\'interfaccia web del fornitore e considera di abilitare \"Impostazioni / Chat e Media / Elimina Vecchi Messaggi\". Puoi controllare l\'utilizzo attuale dello spazio di archiviazione in qualsiasi momento in \"Impostazioni / Connettività\".</string>
     <!-- %1%s will be replaced by date and time in some human-readable format -->
     <string name="devicemsg_bad_time">⚠️ La data o l\'ora del tuo dispositivo sembrano essere imprecise (%1$s).\n\nRegola l\'orologio ⏰🔧 per assicurarti che i tuoi messaggi vengano ricevuti correttamente.</string>
-    <string name="devicemsg_update_reminder">⚠️ La tua versione di Delta Chat potrebbe essere obsoleta.\n\nCiò potrebbe causare problemi perché i tuoi partner di chat utilizzano versioni più recenti - e ti mancano le funzionalità più recenti 😳\nPer piacere controlla https://get.delta.chat o il tuo app store per gli aggiornamenti. </string>
+    <string name="devicemsg_update_reminder">⚠️ La tua versione di ForkStar potrebbe essere obsoleta.\n\nCiò potrebbe causare problemi perché i tuoi partner di chat utilizzano versioni più recenti - e ti mancano le funzionalità più recenti 😳\nPer piacere controlla https://get.delta.chat o il tuo app store per gli aggiornamenti. </string>
 
     <!-- Some options as "Add Second Device" or "Backup" may require the system PIN/Fingerprint/Gesture/Etc. to be entered in a system dialog. This hint is added to the system dialog, below a title as "Add Second Device" or "Backup". -->
     <string name="enter_system_secret_to_continue">Sblocca per continuare</string>
@@ -1068,7 +1068,7 @@
     <string name="perm_explain_access_to_mic_denied">Per inviare messaggi audio, vai alle impostazioni dell\'app, seleziona \"Autorizzazioni\" e abilita \"Microfono\".</string>
     <string name="perm_explain_access_to_storage_denied">Per ricevere o inviare files, vai alle impostazioni dell\'app, seleziona \"Autorizzazioni\" e abilita \"Archiviazione\".</string>
     <string name="perm_explain_access_to_location_denied">Per allegare una posizione, vai alle impostazioni dell\'app, seleziona \"Autorizzazioni\" e abilita \"Posizione\".</string>
-    <string name="perm_explain_access_to_notifications_denied">Per ricevere le notifiche, vai su \"Impostazioni di Sistema / App / Delta Chat\" e attiva \"Notifiche\".</string>
+    <string name="perm_explain_access_to_notifications_denied">Per ricevere le notifiche, vai su \"Impostazioni di Sistema / App / ForkStar\" e attiva \"Notifiche\".</string>
 
     <!-- ImageEditorHud -->
     <string name="ImageEditorHud_draw_anywhere_to_blur">Disegna ovunque per sfocare</string>
@@ -1084,7 +1084,7 @@
     <string name="encrypted_message">Messaggio crittato</string>
 
     <!-- strings introduced on desktop. we want to share strings between the os, in general, please do not add generic strings here -->
-    <string name="about_offical_app_desktop">Questa è l\'app Desktop Delta Chat ufficiale.</string>
+    <string name="about_offical_app_desktop">Questa è l\'app Desktop ForkStar ufficiale.</string>
     <string name="about_licensed_under_desktop">Questo software è concesso in licenza con GNU GPL versione 3 e il codice sorgente è disponibile su GitHub.</string>
     <string name="global_menu_preferences_language_desktop">Lingua</string>
     <string name="global_menu_file_desktop">File</string>
@@ -1101,14 +1101,14 @@
     <string name="global_menu_view_developer_tools_desktop">Strumenti di Sviluppo</string>
     <string name="global_menu_help_desktop">Aiuto</string>
     <!-- deprecated, use delta_chat_homepage instead -->
-    <string name="global_menu_help_learn_desktop">Scopri di più su Delta Chat</string>
-    <string name="delta_chat_homepage">Delta Chat Pagina Iniziale</string>
+    <string name="global_menu_help_learn_desktop">Scopri di più su ForkStar</string>
+    <string name="delta_chat_homepage">ForkStar Pagina Iniziale</string>
     <!-- deprecated, use contribute instead -->
     <string name="global_menu_help_contribute_desktop">Contribuisci su GitHub</string>
     <string name="contribute">Contribuisci</string>
     <string name="global_menu_help_report_desktop">Segnala Problema</string>
-    <string name="global_menu_help_about_desktop">Informazioni Delta Chat</string>
-    <string name="global_menu_file_open_desktop">Apri Delta Chat</string>
+    <string name="global_menu_help_about_desktop">Informazioni ForkStar</string>
+    <string name="global_menu_file_open_desktop">Apri ForkStar</string>
     <string name="global_menu_minimize_to_tray">Minimizza</string>
     <string name="no_chat_selected_suggestion_desktop">Seleziona una chat o crea una nuova chat</string>
     <string name="write_message_desktop">Scrivi un messaggio</string>
@@ -1129,7 +1129,7 @@
     <string name="message_detail_received_desktop">ricevuto</string>
     <string name="menu.view.developer.open.log.folder">Apri Cartella Registro</string>
     <string name="menu.view.developer.open.current.log.file">Apri File Registro Corrente</string>
-    <string name="explain_desktop_minimized_disabled_tray_pref" tools:ignore="TypographyDashes">L\'icona nella barra delle applicazioni non può essere disabilitata poiché Delta Chat è stato avviato con l\'opzione --minimizzato.</string>
+    <string name="explain_desktop_minimized_disabled_tray_pref" tools:ignore="TypographyDashes">L\'icona nella barra delle applicazioni non può essere disabilitata poiché ForkStar è stato avviato con l\'opzione --minimizzato.</string>
     <string name="no_spellcheck_suggestions_found">Nessun suggerimento ortografico trovato.</string>
     <string name="show_window">Mostra Finestra</string>
     <string name="login_socks5_experimental_warning">Il supporto SOCKS5 è attualmente sperimentale. Per piacere usatelo a vostro rischio e pericolo. Se si digita un indirizzo nel campo e-mail, ci sarà una ricerca DNS che non verrà trasferita tramite SOCKS5.</string>
@@ -1171,7 +1171,7 @@
     <string name="import_device_contacts">Importa contatti del dispositivo</string>
     <string name="import_device_contacts_hint">Per chattare coi contatti dal tuo dispositivo apri Impostazioni e abilita \"Contatti\".</string>
     <!-- iOS notification settings -->
-    <string name="disabled_in_dc">Disabilitato in Delta Chat</string>
+    <string name="disabled_in_dc">Disabilitato in ForkStar</string>
     <string name="disabled_in_system_settings">Disabilitato nelle impostazioni di sistema</string>
     <string name="bg_app_refresh_disabled">\"Aggiornamento App Secondo Piano\" disabilitato nelle impostazioni di sistema</string>
     <!-- iOS connectivity view, Adjective, used eg. as "Notifications: Delayed" -->
@@ -1186,20 +1186,20 @@
     <!-- use the same translation for "Shortcuts" as the system is using, often the term "Shortcut" stays untranslated; check eg. how the "Shortcuts" system app is called in your locale -->
     <string name="shortcuts_widget_title">Scorciatoie</string>
     <!-- use the same translation for "Widget" as the system is using; often the term "Widget" stays untranslated -->
-    <string name="shortcuts_widget_description">Utilizza \"Aggiungi al Widget\" di Delta Chat per aggiungere elementi</string>
+    <string name="shortcuts_widget_description">Utilizza \"Aggiungi al Widget\" di ForkStar per aggiungere elementi</string>
     <!-- use the same translation for "Widget" as the system is using; often the term "Widget" stays untranslated -->
     <string name="remove_from_widget">Rimuovi dal Widget</string>
     <!-- use the same translation for "Widget" as the system is using; often the term "Widget" stays untranslated -->
     <string name="add_to_widget">Aggiungi al Widget</string>
     <!-- iOS permissions, copy from "deltachat-ios/Info.plist", which is used on missing translations in "deltachat-ios/LANG.lproj/InfoPlist.strings" -->
-    <string name="InfoPlist_NSCameraUsageDescription">Delta Chat utilizza la tua fotocamera per scattare e inviare foto e video e per scansionare i codici QR.</string>
-    <string name="InfoPlist_NSContactsUsageDescription">Delta Chat usa i tuoi contatti per mostrare una lista di indirizzi e-mail a cui puoi scrivere. Delta Chat non ha un server, i tuoi contatti non vengono inviati da nessuna parte.</string>
-    <string name="InfoPlist_NSLocationAlwaysAndWhenInUseUsageDescription">Delta Chat necessita dell\'autorizzazione per condividere la tua posizione per il periodo di tempo in cui hai abilitato la condivisione della posizione.</string>
-    <string name="InfoPlist_NSLocationWhenInUseUsageDescription">Delta Chat ha bisogno dell\'autorizzazione di localizzazione per condividere la vostra posizione per il periodo di tempo in cui avete abilitato la condivisione della posizione.</string>
-    <string name="InfoPlist_NSMicrophoneUsageDescription">Delta Chat utilizza il tuo microfono per registrare e inviare messaggi vocali e video con audio.</string>
-    <string name="InfoPlist_NSPhotoLibraryUsageDescription">Delta Chat ti permetterà di scegliere quali foto della tua libreria inviare.</string>
-    <string name="InfoPlist_NSPhotoLibraryAddUsageDescription">Delta Chat vuole salvare le immagini nella tua libreria fotografica.</string>
-    <string name="InfoPlist_NSFaceIDUsageDescription">Delta Chat può utilizzare Face ID per proteggere il tuo profilo locale, la creazione di backup e la configurazione di un secondo dispositivo.</string>
+    <string name="InfoPlist_NSCameraUsageDescription">ForkStar utilizza la tua fotocamera per scattare e inviare foto e video e per scansionare i codici QR.</string>
+    <string name="InfoPlist_NSContactsUsageDescription">ForkStar usa i tuoi contatti per mostrare una lista di indirizzi e-mail a cui puoi scrivere. ForkStar non ha un server, i tuoi contatti non vengono inviati da nessuna parte.</string>
+    <string name="InfoPlist_NSLocationAlwaysAndWhenInUseUsageDescription">ForkStar necessita dell\'autorizzazione per condividere la tua posizione per il periodo di tempo in cui hai abilitato la condivisione della posizione.</string>
+    <string name="InfoPlist_NSLocationWhenInUseUsageDescription">ForkStar ha bisogno dell\'autorizzazione di localizzazione per condividere la vostra posizione per il periodo di tempo in cui avete abilitato la condivisione della posizione.</string>
+    <string name="InfoPlist_NSMicrophoneUsageDescription">ForkStar utilizza il tuo microfono per registrare e inviare messaggi vocali e video con audio.</string>
+    <string name="InfoPlist_NSPhotoLibraryUsageDescription">ForkStar ti permetterà di scegliere quali foto della tua libreria inviare.</string>
+    <string name="InfoPlist_NSPhotoLibraryAddUsageDescription">ForkStar vuole salvare le immagini nella tua libreria fotografica.</string>
+    <string name="InfoPlist_NSFaceIDUsageDescription">ForkStar può utilizzare Face ID per proteggere il tuo profilo locale, la creazione di backup e la configurazione di un secondo dispositivo.</string>
 
 
     <!-- android specific strings, developers: please take care to remove strings that are no longer used! -->
@@ -1209,10 +1209,10 @@
     <string name="pref_reliable_service">Forza Connessione Secondo Piano</string>
     <string name="pref_reliable_service_explain">Provoca una notifica permanente</string>
 
-    <string name="pref_background_notifications_rationale">Per mantenere la connessione al tuo server e-mail e ricevere messaggi in secondo piano, ignora le ottimizzazioni della batteria nel passaggio successivo.\n\nDelta Chat utilizza poche risorse e fa attenzione a non consumare la tua batteria.</string>
+    <string name="pref_background_notifications_rationale">Per mantenere la connessione al tuo server e-mail e ricevere messaggi in secondo piano, ignora le ottimizzazioni della batteria nel passaggio successivo.\n\nForkStar utilizza poche risorse e fa attenzione a non consumare la tua batteria.</string>
     <!-- disabling "Reliable service" will hide a the maybe annoying permanent-notification with the drawback that new-message-notifications get potentially unreliable -->
-    <string name="perm_enable_bg_reminder_title">Tocca qui per ricevere messaggi mentre Delta Chat è in secondo piano.</string>
-    <string name="perm_enable_bg_already_done">Hai già autorizzato Delta Chat a ricevere messaggi in secondo piano.\n\nSe i messaggi non arrivano in secondo piano, per piacere controlla anche le impostazioni di sistema.</string>
+    <string name="perm_enable_bg_reminder_title">Tocca qui per ricevere messaggi mentre ForkStar è in secondo piano.</string>
+    <string name="perm_enable_bg_already_done">Hai già autorizzato ForkStar a ricevere messaggi in secondo piano.\n\nSe i messaggi non arrivano in secondo piano, per piacere controlla anche le impostazioni di sistema.</string>
 
     <!-- device messages for updates -->
     <string name="update_1_50_android">Novità?\n\n❤️‍🔥 Nuovo selettore di emoji con più emoji\n\n🎮 App in chat migliorate: ricevi notifiche e apri le app supportate nel contesto, es. apri una voce del calendario cliccando direttamente sul messaggio\n\n👍 Ricevi notifiche sulle reazioni ai tuoi messaggi...\n\n🛠️ CORREZIONI e ANCORA DI PIÙ su %1$s</string>
