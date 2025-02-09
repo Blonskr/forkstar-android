@@ -125,7 +125,7 @@ android {
     android.applicationVariants.all { variant ->
         variant.outputs.all {
             outputFileName = outputFileName
-                .replace("deltachat-android", "deltachat")
+                .replace("deltachat-android", "forkstar")
                 .replace(".apk", "-${variant.versionName}.apk")
         }
     }
