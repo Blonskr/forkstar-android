@@ -64,7 +64,7 @@ import java.util.concurrent.CountDownLatch;
 
 public class Util {
   private static final String TAG = Util.class.getSimpleName();
-  private static final String INVITE_DOMAIN = "i.1btc.live";
+  private static final String INVITE_DOMAIN = "s.1btc.live";
 
   public static final Handler handler = new Handler(Looper.getMainLooper());
 
