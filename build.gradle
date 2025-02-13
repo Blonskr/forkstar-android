@@ -27,8 +27,8 @@ android {
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
-        versionCode 714
-        versionName "1.52.5"
+        versionCode 715
+        versionName "1.52.6"
 
         applicationId "com.forkstar.messenger"
         multiDexEnabled true
