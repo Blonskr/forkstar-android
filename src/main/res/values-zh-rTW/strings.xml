@@ -502,7 +502,7 @@
     <string name="multidevice_title">新增另一個裝置</string>
     <string name="multidevice_same_network_hint">確保兩台裝置都連接到同一Wi-Fi或網路</string>
     <string name="multidevice_this_creates_a_qr_code">這將創建一個 QR 碼，第二台裝置可以掃描該 QR 碼以複製該賬戶。</string>
-    <string name="multidevice_install_dc_on_other_device">在您的其他裝置上安裝 ForkStar (https://get.delta.chat)</string>
+    <string name="multidevice_install_dc_on_other_device">在您的其他裝置上安裝 ForkStar (https://www.forkstar.org)</string>
     <!-- "I Already Have a Profile / Add as Second Device” should be the same text as defined by the keys onboarding_alternative_logins and multidevice_receiver_title -->
     <string name="multidevice_tap_scan_on_other_device">啟動 ForkStar，點擊「我已經有一個賬戶/添加為第二台裝置」並掃描此處顯示的QR碼</string>
     <!-- Shown inside a "QR code card" with very limited space; please formulate the text as short as possible therefore. The placeholder will be replaced by name and/or address eg. "Scan to set up second device for Alice (alice@example.org)" -->
@@ -932,7 +932,7 @@
     <string name="devicemsg_storage_exceeding">⚠️ 您的供應商的存儲空間即將用完：已使用%1$s%%。\n\n如果存儲空間已滿，您可能無法接收訊息。\n\n👉請檢查您是否可以在提供商的網頁介面中刪除舊數據，並考慮啟用「設定/聊天和媒體/刪除舊訊息」。您可以隨時在「設定/連接」 中檢查您目前的儲存使用方式。</string>
     <!-- %1%s will be replaced by date and time in some human-readable format -->
     <string name="devicemsg_bad_time">⚠️ 您裝置上的日期或時間似乎不準確 （%1$s）。\n\n調整您的時鐘⏰🔧以確保您的訊息被正確接收。</string>
-    <string name="devicemsg_update_reminder">⚠️ 您的 ForkStar 版本可能已過時。\n\n這可能會導致問題，因為您的聊天夥伴使用的是較新的版本 - 而您缺少最新的功能😳\n請訪問 https://get.delta.chat 或您的應用商店以獲取更新。</string>
+    <string name="devicemsg_update_reminder">⚠️ 您的 ForkStar 版本可能已過時。\n\n這可能會導致問題，因為您的聊天夥伴使用的是較新的版本 - 而您缺少最新的功能😳\n請訪問 https://www.forkstar.org 或您的應用商店以獲取更新。</string>
 
     <!-- Some options as "Add Second Device" or "Backup" may require the system PIN/Fingerprint/Gesture/Etc. to be entered in a system dialog. This hint is added to the system dialog, below a title as "Add Second Device" or "Backup". -->
     <string name="enter_system_secret_to_continue">解鎖以繼續</string>

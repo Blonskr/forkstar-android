@@ -62,7 +62,7 @@ the following steps are done in a PR called `prep-VERSION` (no leading "v"):
 On serious deteriorations, **ping devs**, make sure they get fixed, and start over at step 1.
 
 
-## Release on get.delta.chat
+## Release on www.forkstar.org
 
 Take care the APK used here and in the following steps
 are binary-wise the same as pushed to testers and not overwritten by subsequent builds.
@@ -71,7 +71,7 @@ are binary-wise the same as pushed to testers and not overwritten by subsequent 
    b) do a PR to bump `VERSION_ANDROID` (without leading `v`) on
       `https://github.com/deltachat/deltachat-pages/blob/master/_includes/download-boxes.html`  
    c) make sure, **the PR gets merged**
-      and the correct APK is finally available on get.delta.chat
+      and the correct APK is finally available on www.forkstar.org
 
 only afterwards, push the APK to stores. **consider a blog post.**
 

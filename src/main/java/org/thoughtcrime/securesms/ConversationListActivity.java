@@ -120,7 +120,7 @@ public class ConversationListActivity extends PassphraseRequiredActionBarActivit
           // Util.copy(inputStream, new FileOutputStream(outputFile));
           // msg.setFile(outputFile, "image/jpeg");
 
-          msg.setText(getString(R.string.update_1_50_android, "https://get.delta.chat/#changelogs"));
+          msg.setText(getString(R.string.update_1_50_android, "https://www.forkstar.org/#changelogs"));
         }
         dcContext.addDeviceMsg(deviceMsgLabel, msg);
 

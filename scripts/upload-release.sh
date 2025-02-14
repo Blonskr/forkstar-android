@@ -4,7 +4,7 @@ VERSION=$1
 
 if [ -z "$VERSION" ]; then
     echo "this script uploads release-ready apk and symbols to download.delta.chat/android"
-    echo "- for showing up on get.delta.chat"
+    echo "- for showing up on www.forkstar.org"
     echo "  you still need to change deltachat-pages/_includes/download-boxes.html"
     echo "- the script does not upload things to gplay or other stores."
     echo ""

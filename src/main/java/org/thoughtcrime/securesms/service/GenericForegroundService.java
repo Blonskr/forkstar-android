@@ -80,10 +80,10 @@ public final class GenericForegroundService extends Service {
     Iterator<Entry> iterator = allActiveMessages.values().iterator();
 
     if (iterator.hasNext()) {
-      postObligatoryForegroundNotification(iterator.next());
+      // postObligatoryForegroundNotification(iterator.next());
     } else {
       Log.i(TAG, "Last request. Ending foreground service.");
-      postObligatoryForegroundNotification(lastPosted != null ? lastPosted : DEFAULTS);
+      // postObligatoryForegroundNotification(lastPosted != null ? lastPosted : DEFAULTS);
       stopForeground(true);
       stopSelf();
     }
@@ -112,14 +112,14 @@ public final class GenericForegroundService extends Service {
 
   private void postObligatoryForegroundNotification(@NonNull Entry active) {
     lastPosted = active;
-    startForeground(NotificationCenter.ID_GENERIC, new Builder(this, active.channelId)
-                                                           .setSmallIcon(active.iconRes)
-                                                           .setContentTitle(active.title)
-                                                           .setTicker(active.contentText)
-                                                           .setContentText(active.contentText)
-                                                           .setProgress(active.progressMax, active.progress, active.indeterminate)
-                                                           .setContentIntent(PendingIntent.getActivity(this, 0, new Intent(this, DummyActivity.class), IntentUtils.FLAG_MUTABLE()))
-                                                           .build());
+//    startForeground(NotificationCenter.ID_GENERIC, new Builder(this, active.channelId)
+//                                                           .setSmallIcon(active.iconRes)
+//                                                           .setContentTitle(active.title)
+//                                                           .setTicker(active.contentText)
+//                                                           .setContentText(active.contentText)
+//                                                           .setProgress(active.progressMax, active.progress, active.indeterminate)
+//                                                           .setContentIntent(PendingIntent.getActivity(this, 0, new Intent(this, DummyActivity.class), IntentUtils.FLAG_MUTABLE()))
+//                                                           .build());
   }
 
   @Override

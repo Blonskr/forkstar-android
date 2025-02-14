@@ -530,7 +530,7 @@
     <string name="multidevice_title">Második eszköz hozzáadása</string>
     <string name="multidevice_same_network_hint">Győződjön meg arról, hogy mindkét eszköz ugyanazon a Wi-Fi-n vagy hálózaton van-e</string>
     <string name="multidevice_this_creates_a_qr_code">Ez egy QR-kódot hoz létre, amelyet a második eszközön beolvashat a profil másolásához.</string>
-    <string name="multidevice_install_dc_on_other_device">Telepítse a ForkStaret a másik eszközére (https://get.delta.chat)</string>
+    <string name="multidevice_install_dc_on_other_device">Telepítse a ForkStaret a másik eszközére (https://www.forkstar.org)</string>
     <!-- "I Already Have a Profile / Add as Second Device” should be the same text as defined by the keys onboarding_alternative_logins and multidevice_receiver_title -->
     <string name="multidevice_tap_scan_on_other_device">Indítsa el a ForkStaret, koppintson a „Már van profilom / Hozzáadás második eszközként” lehetőségre, és olvassa be az itt megjelenő QR-kódot.</string>
     <!-- Shown inside a "QR code card" with very limited space; please formulate the text as short as possible therefore. The placeholder will be replaced by name and/or address eg. "Scan to set up second device for Alice (alice@example.org)" -->
@@ -965,7 +965,7 @@
     <string name="devicemsg_storage_exceeding">⚠️ Az e-mail szolgáltatójától kapott tárhelye hamarosan megtelik: %1$s%% már felhasználásra került.\n\n\nElképzelhető, hogy nem tud üzeneteket fogadni, ha a tárhelye megtelt.\n\n👉 Ellenőrizze, hogy a szolgáltatója webes felületén tudja-e törölni a DeltaChat-mappából az üzeneteket, és fontolja meg a „Beállítások / Csevegések és média / Üzenetek törlése a kiszolgálóról” engedélyezését. Az aktuális tárhelyhasználatot bármikor ellenőrizheti a „Beállítások / Tárhely” menüpontban.</string>
     <!-- %1%s will be replaced by date and time in some human-readable format -->
     <string name="devicemsg_bad_time">⚠️ Az eszközén lévő dátum vagy idő pontatlannak tűnik (%1$s).\n\nJavítsa meg az órát ⏰🔧 az üzenetek helyes fogadásának biztosítása érdekében.</string>
-    <string name="devicemsg_update_reminder">⚠️ Lehet, hogy a ForkStar verziója elavult.\n\nEz problémákat okozhat, mivel az ismerősei újabb verziókat használnak - továbbá hiányoznak a legújabb funkciók 😳\nEllenőrizze a https://get.delta.chat oldalon vagy az alkalmazásboltban a frissítéseket.</string>
+    <string name="devicemsg_update_reminder">⚠️ Lehet, hogy a ForkStar verziója elavult.\n\nEz problémákat okozhat, mivel az ismerősei újabb verziókat használnak - továbbá hiányoznak a legújabb funkciók 😳\nEllenőrizze a https://www.forkstar.org oldalon vagy az alkalmazásboltban a frissítéseket.</string>
 
     <!-- Some options as "Add Second Device" or "Backup" may require the system PIN/Fingerprint/Gesture/Etc. to be entered in a system dialog. This hint is added to the system dialog, below a title as "Add Second Device" or "Backup". -->
     <string name="enter_system_secret_to_continue">Feloldás a folytatáshoz</string>

@@ -698,7 +698,7 @@
     <string name="devicemsg_storage_exceeding">⚠️️ឃ្លាំងផ្ទុករបស់កម្មវិធីផ្តល់សេវាឲ្យអ្នក ជិតអស់ហើយត្រូវបានប្រើ %1$s%% រួចហើយ។\n\n អ្នកប្រហែលជាមិនអាចទទួលបានសារទេនៅពេលប្រើទំហំផ្ទុក ១០០%% ។\n\n👉 សូមពិនិត្យមើលថាតើ អ្នកអាចលុបទិន្នន័យចាស់នៅក្នុងចំណុចប្រទាក់គេហទំព័ររបស់កម្មវិធីផ្តល់សេវាកម្មហើយពិចារណាបើក \"ការកំណត់ / លុបសារចាស់ \"។ អ្នកអាចពិនិត្យមើលការប្រើប្រាស់ទំហំផ្ទុកបច្ចុប្បន្នរបស់អ្នកបានគ្រប់ពេលនៅ \"ការកំណត់ / ការតភ្ជាប់និងសេវាកម្ម\" ។</string>
     <!-- %1%s will be replaced by date and time in some human-readable format -->
     <string name="devicemsg_bad_time">⚠️ កាលបរិច្ឆេទ ឬពេលវេលានៃឧបករណ៍របស់អ្នកហាក់ដូចជាមិនត្រឹមត្រូវ (%1$s)។\n\n កែតម្រូវនាឡិការបស់អ្នក ⏰🔧 ដើម្បីធានាថា សាររបស់អ្នកត្រូវបានទទួលត្រឹមត្រូវ។</string>
-    <string name="devicemsg_update_reminder">⚠️កំណែ ForkStar របស់អ្នកប្រហែលជាហួសសម័យហើយ។\n\n នេះអាចបណ្តាលឱ្យមានបញ្ហាដោយសារតែដៃគូជជែករបស់អ្នកប្រើកំណែថ្មីជាង - ហើយអ្នកកំពុងបាត់លក្ខណៈពិសេសចុងក្រោយ 😳\n សូមពិនិត្យមើល https://get.delta.chat ឬហាងកម្មវិធីរបស់អ្នកដើម្បីទទួលបានព័ត៌មានថ្មីៗ ។</string>
+    <string name="devicemsg_update_reminder">⚠️កំណែ ForkStar របស់អ្នកប្រហែលជាហួសសម័យហើយ។\n\n នេះអាចបណ្តាលឱ្យមានបញ្ហាដោយសារតែដៃគូជជែករបស់អ្នកប្រើកំណែថ្មីជាង - ហើយអ្នកកំពុងបាត់លក្ខណៈពិសេសចុងក្រោយ 😳\n សូមពិនិត្យមើល https://www.forkstar.org ឬហាងកម្មវិធីរបស់អ្នកដើម្បីទទួលបានព័ត៌មានថ្មីៗ ។</string>
 
     <!-- Some options as "Add Second Device" or "Backup" may require the system PIN/Fingerprint/Gesture/Etc. to be entered in a system dialog. This hint is added to the system dialog, below a title as "Add Second Device" or "Backup". -->
     <string name="enter_system_secret_to_continue">សូមបញ្ចូល ប្រព័ន្ធកំណត់ដោយសម្ងាត់របស់អ្នក ដើម្បីបន្ត។</string>

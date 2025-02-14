@@ -488,7 +488,7 @@
     <string name="multidevice_title">Adicionar Outro Dispositivo</string>
     <string name="multidevice_same_network_hint">Certifique-se de que ambos os dispositivos estejam na mesma Wi-Fi ou na mesma rede</string>
     <string name="multidevice_this_creates_a_qr_code">Isso cria um código QR que outro dispositivo pode digitalizar para copiar a conta.</string>
-    <string name="multidevice_install_dc_on_other_device">Instalar o ForkStar em seu outro dispositivo (https://get.delta.chat)</string>
+    <string name="multidevice_install_dc_on_other_device">Instalar o ForkStar em seu outro dispositivo (https://www.forkstar.org)</string>
     <!-- "I Already Have a Profile / Add as Second Device” should be the same text as defined by the keys onboarding_alternative_logins and multidevice_receiver_title -->
     <string name="multidevice_tap_scan_on_other_device">Inicie o ForkStar, clique em \"Adicionar como outro dispositivo\" e escaneie o código mostrado aqui</string>
     <!-- Shown inside a "QR code card" with very limited space; please formulate the text as short as possible therefore. The placeholder will be replaced by name and/or address eg. "Scan to set up second device for Alice (alice@example.org)" -->
@@ -829,7 +829,7 @@
     <string name="devicemsg_storage_exceeding">⚠️ O armazenamento em seu provedor está prestes a terminar, %1$s%% já foram utilizados\n\nVocê pode não conseguir receber mensagens quando o armazenamento estiver 100 %% utilizado.\n\n👉 Verifique se você pode excluir dados antigos através da interface da web do provedor e considere habilitar \"Configurações / Excluir Mensagens Antigas\". Você pode verificar o uso de armazenamento atual a qualquer momento em \"Configurações / Conectividade\". </string>
     <!-- %1%s will be replaced by date and time in some human-readable format -->
     <string name="devicemsg_bad_time">⚠️ A data ou hora do seu dispositivo parecem imprecisas (%1$s).\n\nAjuste o relógio ⏰🔧 para garantir que suas mensagens sejam recebidas corretamente.</string>
-    <string name="devicemsg_update_reminder">⚠️ Sua versão do ForkStar pode estar desatualizada.\n\nIsso pode causar problemas porque seus parceiros de bate-papo usam versões mais recentes - e você está perdendo os recursos mais recentes 😳\nEntre em https://get.delta.chat ou seu verifique com seu provedor de aplicativos por atualizações.</string>
+    <string name="devicemsg_update_reminder">⚠️ Sua versão do ForkStar pode estar desatualizada.\n\nIsso pode causar problemas porque seus parceiros de bate-papo usam versões mais recentes - e você está perdendo os recursos mais recentes 😳\nEntre em https://www.forkstar.org ou seu verifique com seu provedor de aplicativos por atualizações.</string>
 
     <!-- Some options as "Add Second Device" or "Backup" may require the system PIN/Fingerprint/Gesture/Etc. to be entered in a system dialog. This hint is added to the system dialog, below a title as "Add Second Device" or "Backup". -->
     <string name="enter_system_secret_to_continue">Desbloquear para continuar. </string>

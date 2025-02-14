@@ -522,7 +522,7 @@ https://meet.jit.si/$ROOM
     <string name="multidevice_title">افزودن دستگاه دوم</string>
     <string name="multidevice_same_network_hint">مطمئن شوید هر دو دستگاه در یک وای‌فای یا شبکه هستند</string>
     <string name="multidevice_this_creates_a_qr_code">این یک کد کیوآر ایجاد می‌کند که دستگاه دوم می‌تواند برای کپی حساب اسکن کند.</string>
-    <string name="multidevice_install_dc_on_other_device">دلتاچت را روی دستگاه دیگر خود نصب کنید (https://get.delta.chat)</string>
+    <string name="multidevice_install_dc_on_other_device">دلتاچت را روی دستگاه دیگر خود نصب کنید (https://www.forkstar.org)</string>
     <!-- "I Already Have a Profile / Add as Second Device” should be the same text as defined by the keys onboarding_alternative_logins and multidevice_receiver_title -->
     <string name="multidevice_tap_scan_on_other_device">دلتاچت را باز کنید، روی «افزودن به عنوان دستگاه دوم» بزنید و کد نشان داده شده در اینجا را اسکن کنید</string>
     <!-- Shown inside a "QR code card" with very limited space; please formulate the text as short as possible therefore. The placeholder will be replaced by name and/or address eg. "Scan to set up second device for Alice (alice@example.org)" -->
@@ -952,7 +952,7 @@ https://meet.jit.si/$ROOM
 ساعت دستگاه خود را تنظیم کنید ⏰🔧 تا پیام‌ها به درستی دریافت شوند. </string>
     <string name="devicemsg_update_reminder">هشدار⚠️ ممکن است نسخه دلتاچت مورد استفاده قدیمی شده باشد. 
 این موضوع ممکن است مشکلاتی ایجاد کند چون مخاطبین شما از نسخه‌های جدیدتر استفاده می‌کنند. همچنین قابلیت‌های جدید را هم از دست می‌دهید😳
-لطفا برای دریافت نسخه جدید به app store یا https://get.delta.chat مراجعه کنید. </string>
+لطفا برای دریافت نسخه جدید به app store یا https://www.forkstar.org مراجعه کنید. </string>
 
     <!-- Some options as "Add Second Device" or "Backup" may require the system PIN/Fingerprint/Gesture/Etc. to be entered in a system dialog. This hint is added to the system dialog, below a title as "Add Second Device" or "Backup". -->
     <string name="enter_system_secret_to_continue">برای ادامه، لطفا رمز تعیین شده توسط سیستم خود را وارد کنید</string>

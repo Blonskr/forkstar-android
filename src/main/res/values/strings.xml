@@ -533,7 +533,7 @@
     <string name="multidevice_title">Add Second Device</string>
     <string name="multidevice_same_network_hint">Make sure both devices are on the same Wi-Fi or network</string>
     <string name="multidevice_this_creates_a_qr_code">This creates a QR code that the second device can scan to copy the profile.</string>
-    <string name="multidevice_install_dc_on_other_device">Install ForkStar on your other device (https://get.delta.chat)</string>
+    <string name="multidevice_install_dc_on_other_device">Install ForkStar on your other device (https://www.forkstar.org)</string>
     <!-- "I Already Have a Profile / Add as Second Device” should be the same text as defined by the keys onboarding_alternative_logins and multidevice_receiver_title -->
     <string name="multidevice_tap_scan_on_other_device">Start ForkStar, tap “I Already Have a Profile / Add as Second Device” and scan the code shown here</string>
     <!-- Shown inside a "QR code card" with very limited space; please formulate the text as short as possible therefore. The placeholder will be replaced by name and/or address eg. "Scan to set up second device for Alice (alice@example.org)" -->
@@ -968,7 +968,7 @@
     <string name="devicemsg_storage_exceeding">⚠️ Your provider\'s storage is about to run out: %1$s%% are already used.\n\nYou may not be able to receive messages if storage is full.\n\n👉 Please check if you can delete old data in the provider\'s web interface and consider enabling \"Settings / Chats and Media / Delete Old Messages\". You can check your current storage usage anytime at \"Settings / Connectivity\".</string>
     <!-- %1%s will be replaced by date and time in some human-readable format -->
     <string name="devicemsg_bad_time">⚠️ Date or time on your device seems to be inaccurate (%1$s).\n\nAdjust your clock ⏰🔧 to ensure your messages are received correctly.</string>
-    <string name="devicemsg_update_reminder">⚠️ Your ForkStar version might be outdated.\n\nThis may cause problems because your chat partners use newer versions - and you are missing the latest features 😳\nPlease check https://get.delta.chat or your app store for updates.</string>
+    <string name="devicemsg_update_reminder">⚠️ Your ForkStar version might be outdated.\n\nThis may cause problems because your chat partners use newer versions - and you are missing the latest features 😳\nPlease check https://www.forkstar.org or your app store for updates.</string>
 
     <!-- Some options as "Add Second Device" or "Backup" may require the system PIN/Fingerprint/Gesture/Etc. to be entered in a system dialog. This hint is added to the system dialog, below a title as "Add Second Device" or "Backup". -->
     <string name="enter_system_secret_to_continue">Unlock to continue</string>

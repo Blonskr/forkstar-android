@@ -498,7 +498,7 @@
     <string name="multidevice_title">Lägg till en andra enhet</string>
     <string name="multidevice_same_network_hint">Tillse att bägge enheterna är på samma WiFi eller nätverk</string>
     <string name="multidevice_this_creates_a_qr_code">Detta skapar en QR-kod som den andra enheten kan skanna för att kopiera profilen.</string>
-    <string name="multidevice_install_dc_on_other_device">Installera ForkStar på din andra enhet (https://get.delta.chat)</string>
+    <string name="multidevice_install_dc_on_other_device">Installera ForkStar på din andra enhet (https://www.forkstar.org)</string>
     <!-- "I Already Have a Profile / Add as Second Device” should be the same text as defined by the keys onboarding_alternative_logins and multidevice_receiver_title -->
     <string name="multidevice_tap_scan_on_other_device">Starta ForkStar, tryck på \"Jag har redan en profil / Lägg till som andra enhet\" och skanna koden som visas här.</string>
     <!-- Shown inside a "QR code card" with very limited space; please formulate the text as short as possible therefore. The placeholder will be replaced by name and/or address eg. "Scan to set up second device for Alice (alice@example.org)" -->
@@ -908,7 +908,7 @@
     <string name="devicemsg_storage_exceeding">⚠️ Din leverantörs lagringsutrymme är snart slut: %1$s%% är redan använt.\n\nDu kanske inte kan ta emot meddelanden om lagringsutrymmet är fullt.\n\n👉 Kontrollera om du kan radera gammal data i leverantörens webbgränssnitt och överväg att aktivera \"Inställningar / Chattar och media / Ta bort gamla meddelanden\". Du kan kontrollera din aktuella lagringsanvändning när som helst under \"Inställningar / Anslutning\".</string>
     <!-- %1%s will be replaced by date and time in some human-readable format -->
     <string name="devicemsg_bad_time">⚠️ Datum eller tid på din enhet verkar vara felaktigt (%1$s).\n\nJustera din klocka ⏰🔧 för att säkerställa att dina meddelanden tas emot korrekt.</string>
-    <string name="devicemsg_update_reminder">⚠️ Din ForkStar-version kan vara föråldrad.\n\nDetta kan orsaka problem eftersom dina chattpartners använder nyare versioner - och du saknar de senaste funktionerna 😳\nSök efter uppdateringar på https://get.delta.chat eller i din appbutik.</string>
+    <string name="devicemsg_update_reminder">⚠️ Din ForkStar-version kan vara föråldrad.\n\nDetta kan orsaka problem eftersom dina chattpartners använder nyare versioner - och du saknar de senaste funktionerna 😳\nSök efter uppdateringar på https://www.forkstar.org eller i din appbutik.</string>
 
     <!-- Some options as "Add Second Device" or "Backup" may require the system PIN/Fingerprint/Gesture/Etc. to be entered in a system dialog. This hint is added to the system dialog, below a title as "Add Second Device" or "Backup". -->
     <string name="enter_system_secret_to_continue">Lås upp för att fortsätta</string>

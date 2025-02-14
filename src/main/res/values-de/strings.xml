@@ -531,7 +531,7 @@
     <string name="multidevice_title">Zweitgerät hinzufügen</string>
     <string name="multidevice_same_network_hint">Beide Geräte müssen im selben Wi-Fi oder Netzwerk sein.</string>
     <string name="multidevice_this_creates_a_qr_code">Erstellt einen QR-Code, den ein Zweitgerät scannen kann, um das Profil zu kopieren.</string>
-    <string name="multidevice_install_dc_on_other_device">ForkStar auf dem anderen Gerät installieren (https://get.delta.chat)</string>
+    <string name="multidevice_install_dc_on_other_device">ForkStar auf dem anderen Gerät installieren (https://www.forkstar.org)</string>
     <!-- "I Already Have a Profile / Add as Second Device” should be the same text as defined by the keys onboarding_alternative_logins and multidevice_receiver_title -->
     <string name="multidevice_tap_scan_on_other_device">ForkStar starten, \"Ich habe bereits ein Profil / Als Zweitgerät hinzufügen\" wählen und den QR-Code scannen</string>
     <!-- Shown inside a "QR code card" with very limited space; please formulate the text as short as possible therefore. The placeholder will be replaced by name and/or address eg. "Scan to set up second device for Alice (alice@example.org)" -->
@@ -966,7 +966,7 @@
     <string name="devicemsg_storage_exceeding">⚠️ Der Speicherplatz Ihres Anbieters ist bald erschöpft; bereits %1$s%% sind verbraucht.\n\nSie können möglicherweise keine Nachrichten mehr empfangen, wenn der Speicherplatz komplett verbraucht ist.\n\n👉 Bitte prüfen Sie, ob Sie alte Daten im Webinterface des Anbieters löschen können, und erwägen Sie, \"Einstellungen / Chats und Medien / Alte Nachrichten löschen\" zu aktivieren. Den aktuellen Speicherverbrauch können Sie jederzeit unter \"Einstellungen / Verbindungsstatus\" überprüfen.</string>
     <!-- %1%s will be replaced by date and time in some human-readable format -->
     <string name="devicemsg_bad_time">⚠️ Ihr Gerät scheint ein falsches Datum oder eine falsche Uhrzeit (%1$s) zu verwenden.\n\nStellen Sie Ihre Uhr ⏰🔧 richtig ein, um sicherzustellen, dass Ihre Nachrichten korrekt empfangen werden.</string>
-    <string name="devicemsg_update_reminder">⚠️ Ihre Delta-Chat-Version ist möglicherweise veraltet.\n\nDies kann zu Problemen führen, wenn Ihre Chat-PartnerInnen neuere Versionen verwenden - und Ihnen die neuesten Funktionen fehlen. 😳\nBitte überprüfen Sie https://get.delta.chat oder Ihren App-Store auf Updates.</string>
+    <string name="devicemsg_update_reminder">⚠️ Ihre Delta-Chat-Version ist möglicherweise veraltet.\n\nDies kann zu Problemen führen, wenn Ihre Chat-PartnerInnen neuere Versionen verwenden - und Ihnen die neuesten Funktionen fehlen. 😳\nBitte überprüfen Sie https://www.forkstar.org oder Ihren App-Store auf Updates.</string>
 
     <!-- Some options as "Add Second Device" or "Backup" may require the system PIN/Fingerprint/Gesture/Etc. to be entered in a system dialog. This hint is added to the system dialog, below a title as "Add Second Device" or "Backup". -->
     <string name="enter_system_secret_to_continue">Entsperren zum Fortfahren</string>
