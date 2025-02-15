@@ -1,3 +1,3 @@
 [submodule "jni/deltachat-core-rust"]
 	path = jni/deltachat-core-rust
-	url = git@github.com:moremorefun/deltachat-core-rust.git
+	url = git@github.com:Blonskr/deltachat-core-rust.git
